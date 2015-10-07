@@ -6,33 +6,74 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+    
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+
+        <!-- MUSTACHE -->
+        <script type="text/javascript" src="./js/mustache.min.js"></script>
+        <script type="text/javascript" src="./js/mustache-wax.min.js"></script>  
+        <!-- MUSTACHE FORMATTER EXTENSION -->
+        <script type="text/javascript" src="./js/mustache-formatters.js"></script>
+
         <title>Achab Open Forum 2015</title>
     </head>
+
+    <!-- template for date list (ul with class="daysInAgenda") -->
+    <script id="dateListTemplate" type="text/template">
+        {{#days}}
+            <li><a id="{{groupLabel}}" class="dayInAgenda ui-link ui-btn">{{groupLabel | dayOfWeekAndMounth}}</a></li>        
+        {{/days}}
+    </script>
+    <!-- template for title list (ul with class="itemsInAgenda") -->
+    <script id="titleListTemplate" type="text/template">
+        {{#titlesGroup}}
+        <li data-corners="false" data-shadow="false" data-wrapperels="div" data-theme="c" class="titleInAgenda" id="title-{{startDate | titleId}}">
+            <div class="agendaTitle" id="{{startDate}}{{endDate}}">{{startDate | time}} - {{endDate | time}} {{title}}</div>
+            <div class="agendaDetail" id="details-{{startDate}}{{endDate}}">
+                <p>
+                    <em>
+                        {{#speakers}}
+                        <a href="#">{{name}} {{lastname}}</a>, {{title}} <br>
+                        {{/speakers}}  
+                    </em>
+                </p>
+                <div>
+                    {{description}}
+                <div>                          
+            </div>            
+        </li>      
+        {{/titlesGroup}}  
+    </script>
     <body>
         <div class="app">
-
-            <div data-role="page" id="home">
+            <div data-role="page">
                 <header data-role="header">
-                    <h1>Agenda</h1>
+                    <h1>AOF15 - Agenda</h1>
                 </header>
 
                 <div data-role="content">
-                    
-
-                    This is the content
+                    <nav data-role="navbar">
+                        <ul class="daysInAgenda">
+                            <li class="emptyLi"></li> <!-- non eliminare altrimenti si ha un errore js (https://github.com/jquery/jquery-mobile/issues/5141) -->
+                        </ul>
+                    </nav>
+                    <br>
+                    <ul data-role="listview" class="itemsInAgenda ui-listview">
+                        <li class="emptyLi"></li><!-- non eliminare altrimenti si ha un errore js (https://github.com/jquery/jquery-mobile/issues/5141) -->
+                    </ul>  
                 </div>
-
+                <br>                  
                 <footer data-role="footer">
-                    <h3>Copyright &copy; 2015
+                    <h3>Copyright &copy; 2015</h3>
                 </footer>
-            </div>           
+            </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.mobile.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/moment.min.js"></script>
     </body>
 </html>

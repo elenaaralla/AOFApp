@@ -1,0 +1,95 @@
+{"days": [{ "groupLabel": "20151022T000000Z",
+  "titlesGroup": [
+  {
+    "startDate": "20151022T113000Z",
+    "endDate": "20151022T123000Z",
+    "title": "titolo 2",
+    "description": "descrizione dell'evento 2 del 22/10",
+    "speakers": [
+      {
+        "name": "Elena",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      },
+      {
+        "name": "Elena2",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      }
+    ]
+  },
+  {
+    "startDate": "20151022T103000Z",
+    "endDate": "20151022T113000Z",
+    "title": "titolo 1",
+    "description": "descrizione dell'evento 1  del 22/10",
+    "speakers": [
+      {
+        "name": "Elena",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      },
+      {
+        "name": "Elena2",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      }
+    ]
+  }
+]},
+{ "groupLabel": "20151023T000000Z",
+  "titlesGroup": [
+  {
+    "startDate": "20151023T113000Z",
+    "endDate": "20151023T123000Z",
+    "title": "titolo 2",
+    "description": "descrizione dell'evento 2  del 23/10",
+    "speakers": [
+      {
+        "name": "Elena",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      },
+      {
+        "name": "Elena2",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      }
+    ]
+  },
+  {
+    "startDate": "20151023T103000Z",
+    "endDate": "20151023T113000Z",
+    "title": "titolo 1",
+    "description": "descrizione dell'evento 1 del 23/10",
+    "speakers": [
+      {
+        "name": "Elena",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      },
+      {
+        "name": "Elena2",
+        "lastname": "Aralla",
+        "title": "SW dev",
+        "curriculum": "text",
+        "image": "url"
+      }
+    ]
+  }
+]}
+]}
