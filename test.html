@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>scrollTop demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<div class="demo">
+ 
+
+ 
+
+
+</div>
+ 
+
+<script>
+
+var str = $( ".demo" ).html();
+
+var regex = /(<([^>]+)>)/ig
+,   result = str.replace(regex, "");
+
+var regex2 = /(?:\r\n|\r|\n)/ig
+,   result2 = result.replace(regex2, "");
+
+var res = $( ".demo" ).html();
+
+$( ".demo" ).html(result2);
+
+</script>
+
+</body>
+</html>

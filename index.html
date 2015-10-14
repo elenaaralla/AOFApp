@@ -30,50 +30,88 @@
     <script id="titleListTemplate" type="text/template">
         {{#titlesGroup}}
         <li data-corners="false" data-shadow="false" data-wrapperels="div" data-theme="c" class="titleInAgenda" id="title-{{startDate | titleId}}">
-            <div class="agendaTitle" id="{{startDate}}{{endDate}}">{{startDate | time}} - {{endDate | time}} {{title}}</div>
-            <div class="agendaDetail" id="details-{{startDate}}{{endDate}}">
+            <div class="agendaTitle" id="{{startDate}}-{{endDate}}">{{startDate | time}} - {{endDate | time}}<br><span>{{title}}</span></div>
+            <div class="agendaDetail" id="details-{{startDate}}-{{endDate}}">
+                <a id="link-{{startDate}}-{{endDate}}" class="itemDescription icon ui-btn-icon-right ui-icon-carat-r"></a>
+                <div id="shortDesc-{{startDate}}-{{endDate}}" class="shortDesc">{{description | lpad | leftN}}</div>
+                {{#speakers}}
                 <p>
-                    <em>
-                        {{#speakers}}
-                        <a href="#">{{name}} {{lastname}}</a>, {{title}} <br>
-                        {{/speakers}}  
-                    </em>
+                    <a id="{{name | lowercase}}-{{lastname | lowercase}}" class="speaker">{{name}} {{lastname}}</a>,
+                    <em id="speakerTitle">{{title}}</em>
                 </p>
-                <div>
-                    {{description}}
-                <div>                          
-            </div>            
+                {{/speakers}}
+            </div> 
         </li>      
         {{/titlesGroup}}  
     </script>
+    <!-- template for event details -->
+    <script id="eventTemplate" type="text/template">
+        <div class="eventTitle">{{title}}</div>
+        <div class="eventDescription">
+            {{{description}}}                  
+        </div>    
+    </script>    
+    <!-- template for speaker details -->
+    <script id="speakerTemplate" type="text/template">
+        <img src="{{image}}">
+        <div class="speakerTitle"><strong>{{name}} {{lastname}}</strong><br><em>{{title}}</em></div>
+        <div class="speakerCurriculum">
+            <br>{{{curriculum}}}                      
+        </div>  
+    </script>  
     <body>
         <div class="app">
-            <div data-role="page">
-                <header data-role="header">
-                    <h1>AOF15 - Agenda</h1>
+            <div data-role="page" id="home">
+                <header data-role="header" id="header">
+                    <h1 id="h1">Agenda</h1>
                 </header>
-
                 <div data-role="content">
                     <nav data-role="navbar">
                         <ul class="daysInAgenda">
                             <li class="emptyLi"></li> <!-- non eliminare altrimenti si ha un errore js (https://github.com/jquery/jquery-mobile/issues/5141) -->
                         </ul>
                     </nav>
-                    <br>
                     <ul data-role="listview" class="itemsInAgenda ui-listview">
                         <li class="emptyLi"></li><!-- non eliminare altrimenti si ha un errore js (https://github.com/jquery/jquery-mobile/issues/5141) -->
                     </ul>  
                 </div>
                 <br>                  
-                <footer data-role="footer">
-                    <h3>Copyright &copy; 2015</h3>
+                <footer data-role="footer" data-position="fixed">
+                    <h3 id="h3"></h3>
                 </footer>
             </div>
+            <div data-role="page" id="selectedEventPage">
+                <header data-role="header" id="header">
+                    <h1 id="h1">Agenda</h1>
+                </header>
+                <div data-role="content">
+                    <a href="#home" data-role="button" data-icon="arrow-l" data-iconpos="notext">Back</a>
+                    <div  id="eventContent"></div>
+                </div>
+                <br>                  
+                <footer data-role="footer" data-position="fixed">
+                    <h3 id="h3"></h3>
+                </footer>
+            </div>        
+            <div data-role="page" id="selectedSpeakerPage">
+                <header data-role="header" id="header">
+                    <h1 id="h1">Agenda</h1>
+                </header>
+                <div data-role="content">
+                    <a href="#home" data-role="button" data-icon="arrow-l" data-iconpos="notext">Back</a>
+                    <div  id="speakerContent"></div>
+                </div>
+                <br>                  
+                <footer data-role="footer" data-position="fixed">
+                    <h3 id="h3"></h3>
+                </footer>
+            </div> 
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.mobile.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/moment.min.js"></script>
+        <script type="text/javascript" src="js/moment-timezone.js"></script>
     </body>
 </html>

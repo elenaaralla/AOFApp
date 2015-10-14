@@ -1,11 +1,86 @@
 .dayInAgenda
 {
-	width: 8.5rem;
     float: left;
+}
+
+.agendaTitle
+{
+	white-space: pre-wrap;
+}
+
+.shortDesc
+{
+	white-space: normal;
+	font-size: small;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.agendaTitle span
+{
+	font-weight: normal;
 }
 
 .left
 {
 	text-align: left;
-	margin-left: 0.2rem;
+	padding-left: 0.2rem;
+}
+
+.agendaDetail
+{
+	padding-right:2rem;
+}
+
+.icon
+{
+	float:right;
+	padding-right:0.5rem;
+}
+
+.highlight
+{
+	background-color: #ffcc00;
+	box-shadow: 5px 5px 5px #a7a7a7;
+}
+
+#header
+{
+ 	background-image: url(../img/AOFBanner70px.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-y: -5px;	
+}
+
+#h1
+{
+	color: #ffcc00;
+    font-weight: normal;
+    font-size: 24px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;	
+}
+
+#h3
+{
+	background-image: url(../img/achab-footer-logo.svg);
+    background-repeat: no-repeat;
+    background-position-y: 0.5rem;
+    background-position-x: 50%;
+}
+
+#speakerContent
+{
+	/*padding-left: 1.5rem;*/
+}
+
+.eventTitle
+{
+	font-weight: bold;
+}
+
+#eventContent
+{
+	/*padding-left: 1.5rem;*/
 }

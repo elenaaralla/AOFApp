@@ -14,6 +14,19 @@ Mustache.Formatters = {
         while ((filler.length + str.length) < num) { filler += sep };
         return (filler + str).slice(-num);
     },
+    "leftN": function (str) {
+        var regex = /(<([^>]+)>)/ig
+        ,   result = str.replace(regex, " ");
+        
+        var regex2 = /(?:\r\n|\r|\n)/ig
+        ,   result2 = result.replace(regex2, " ");
+
+        if(result2.length > 63)
+        {
+            result2 = result2.substring(0, 60) + '...';
+        }
+        return result2;
+    },    
     "date": function (str) {
         var dt = moment(str, 'YYYYMMDDTHHmmssZ');
         var day   = dt.date();
@@ -34,8 +47,15 @@ Mustache.Formatters = {
         return  dayOW + " " + day + " " + month;
     },   
     "time": function (str) {
-        var dt = moment(str, 'YYYYMMDDTHHmmssZ');
-        return  dt.hour() + '.' +  dt.minute();
+        var dt = moment(str, 'YYYYMMDDTHHmmssZ').subtract(2, 'hours');
+        
+        var formattedTime = dt.format("HH.mm");
+
+        if (formattedTime == "00.00") {
+            formattedTime = "24.00";
+        };
+
+        return  formattedTime;
     },   
     "titleId": function (str) {
         var dt = moment(str, 'YYYYMMDDTHHmmssZ');
