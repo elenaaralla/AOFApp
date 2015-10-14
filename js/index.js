@@ -44,6 +44,8 @@ function onDeviceReady() {
 
             $('.itemsInAgenda').css('margin-top','3px');
             $('.dayInAgenda').css('border-right-width','1px');
+
+            $('.agendaDetail').on( "swiperight", viewEventDetail );
         }
     });   
 }
@@ -155,6 +157,13 @@ $('.itemsInAgenda').on('click', '.agendaTitle', function() {
     	displaySelectedTitleDetails(daterange);
     }
  });
+
+
+
+function viewEventDetail( event ){
+    $( event.target ).addClass("highlight");
+}
+
 
 /* click event on title item in titles list */
 $('.itemsInAgenda').on('click', '.itemDescription', function() {
