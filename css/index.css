@@ -83,7 +83,9 @@
 	background-position: left center;
 	background-repeat: no-repeat;
 	float:left;
-	padding-left:0.5rem;	
+	padding-left:0.5rem;
+	padding-right: 90%;	
+	padding-bottom:0.5rem;
 }
 
 .right-icon

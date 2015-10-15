@@ -49,20 +49,21 @@ function onDeviceReady() {
             });
 
             // when user does click on day button in navbar, display all day titles
-            $('.daysInAgenda').on('click', displayDayTitles);
+            $('.daysInAgenda').on('tap', displayDayTitles);
 
             // when user does click on eventTitle, display details
-            $('.agendaTitle').on("click", displayDetails);
+            $('.agendaTitle').on("tap", displayDetails);
 
             // when user does click on "> image", load description
-            $('.itemDescription').on( "click", viewDescription );
+            $('.itemDescription').on( "tap", viewDescription );
 
-            // when user does swiperight on eventDetail, load description
+            // when user does swipeleft on eventDetail, load description
             $('.agendaDetail').on( "swipeleft", viewDescription );
 
             // when user does click on "speaker name", load speaker data
-            $('.speaker').on( "click", viewSpeakerData );
+            $('.speaker').on( "tap", viewSpeakerData );
             
+            // when user swiperight on event or speaker page, go back to home
             $('.eventPageContent').on( "swiperight", goHome );
             $('.speakerPageContent').on( "swiperight", goHome );
         }
