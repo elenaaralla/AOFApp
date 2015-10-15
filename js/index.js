@@ -37,9 +37,7 @@ function onDeviceReady() {
         {   
             $('.emptyLi').css('padding','0.5rem').css('border','0').css('background-color','transparent');
 
-			// display titles of selected day
-			displaySelectedDayTitles(firstDay);
-
+            //display selected day titles and hilite current time
             highlightsCurrentEvent();  
 
             $('.itemsInAgenda').css('margin-top','3px');
@@ -55,13 +53,13 @@ function onDeviceReady() {
             $('.itemDescription').on( "click", viewDescription );
 
             // when user does swiperight on eventDetail, load description
-            $('.agendaDetail').on( "swiperight", viewDescription );
+            $('.agendaDetail').on( "swipeleft", viewDescription );
 
             // when user does click on "speaker name", load speaker data
             $('.speaker').on( "click", viewSpeakerData );
             
-            $('.eventPageContent').on( "swipeleft", goHome );
-            $('.speakerPageContent').on( "swipeleft", goHome );
+            $('.eventPageContent').on( "swiperight", goHome );
+            $('.speakerPageContent').on( "swiperight", goHome );
         }
     });   
 }
@@ -88,7 +86,6 @@ function getTitles(daysArray)
 /* funtction to "deactivate" button on navbar - called by onDeviceReady() function and onclick eventhandler on button in navbar */
 function resetDaysSelection()
 {
-	/* for each item with class 'dayInAgenda' check if id is selDay*/
     $('.dayInAgenda').each(function(i, obj) {
     	$('#'+obj.id).removeClass("ui-btn-active");
 	});
@@ -104,11 +101,9 @@ function displaySelectedDayTitles(selDay)
     {
         selDay = firstDay;
     }
-    else
-    {
-        // set selected item in days list
-        $('#'+selDay).addClass("ui-btn-active"); 
-    }
+
+    // set selected item in days list
+    $('#'+selDay).addClass("ui-btn-active"); 
 
     // reset highlightning
     $('.titleInAgenda').removeClass('highlight');
@@ -143,7 +138,7 @@ function displaySelectedTitleDetails(daterange)
 /* click event on button of navigation bar */
 function displayDayTitles (event) {
 	selDay = event.target.id; // id of clicked li by directly accessing DOMElement property
-	$('#'+selDay).addClass("ui-btn-active");	
+
 	// display titles of selected day
 	displaySelectedDayTitles(selDay);
  }
@@ -251,7 +246,7 @@ function displaySelectedTitleDescription(myevent)
     // load data into eventContent div
     $('#eventContent').html(eventData);
 
-    $.mobile.changePage("#selectedEventPage");
+    $.mobile.navigate("#selectedEventPage");
 }
 
 /* function to display curriculum of a selected speaker - called by onclick eventhandler on link in speakers list*/
@@ -265,7 +260,7 @@ function displaySelectedSpeaker(myspeaker)
     // load data into speakerContent div
     $('#speakerContent').html(speakerData);
 
-    $.mobile.changePage("#selectedSpeakerPage");
+    $.mobile.navigate("#selectedSpeakerPage");
 }
 
 function highlightsCurrentEvent()

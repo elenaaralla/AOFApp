@@ -21,11 +21,7 @@ Mustache.Formatters = {
         var regex2 = /(?:\r\n|\r|\n)/ig
         ,   result2 = result.replace(regex2, " ");
 
-        if(result2.length > 63)
-        {
-            result2 = result2.substring(0, 60) + '...';
-        }
-        return result2;
+        return cutString(result2, 63);
     },    
     "date": function (str) {
         var dt = moment(str, 'YYYYMMDDTHHmmssZ');
@@ -74,3 +70,9 @@ Mustache.Formatters = {
         return arguments.length;
     }
 };
+
+function cutString(s, n){
+    var cut = s.indexOf(' ', n);
+    if(cut == -1) return s;
+    return s.substring(0, cut) + '...'
+}
