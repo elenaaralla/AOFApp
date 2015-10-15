@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
@@ -23,7 +23,7 @@
     <!-- template for date list (ul with class="daysInAgenda") -->
     <script id="dateListTemplate" type="text/template">
         {{#days}}
-            <li><a id="{{groupLabel}}" class="dayInAgenda ui-link ui-btn">{{groupLabel | dayOfWeekAndMounth}}</a></li>        
+            <li><a id="{{groupLabel}}" data-transition="none" class="dayInAgenda ui-link ui-btn">{{groupLabel | dayOfWeekAndMounth}}</a></li>     
         {{/days}}
     </script>
     <!-- template for title list (ul with class="itemsInAgenda") -->
@@ -32,11 +32,11 @@
         <li data-corners="false" data-shadow="false" data-wrapperels="div" data-theme="c" class="titleInAgenda" id="title-{{startDate | titleId}}">
             <div class="agendaTitle" id="{{startDate}}-{{endDate}}">{{startDate | time}} - {{endDate | time}}<br><span>{{title}}</span></div>
             <div class="agendaDetail" id="details-{{startDate}}-{{endDate}}">
-                <a id="link-{{startDate}}-{{endDate}}" data-transition="none" class="itemDescription icon navicon right-icon"><span class="hide">View details</span></a>
+                <a id="link-{{startDate}}-{{endDate}}" data-transition="none" class="itemDescription navicon right-icon"><span class="hide">View details</span></a>
                 <div id="shortDesc-{{startDate}}-{{endDate}}" class="shortDesc">{{description | lpad | leftN}}</div>
                 {{#speakers}}
                 <p>
-                    <a id="{{name | lowercase}}-{{lastname | lowercase}}" class="speaker">{{name}} {{lastname}}</a>,
+                    <a id="{{name | lowercase}}-{{lastname | lowercase}}" data-transition="none" class="speaker">{{name}} {{lastname}}</a>,
                     <em id="speakerTitle">{{title}}</em>
                 </p>
                 {{/speakers}}
@@ -112,6 +112,5 @@
         <script type="text/javascript" src="js/jquery.mobile.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/moment.min.js"></script>
-        <script type="text/javascript" src="js/moment-timezone.js"></script>
     </body>
 </html>
