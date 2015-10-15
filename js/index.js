@@ -45,7 +45,23 @@ function onDeviceReady() {
             $('.itemsInAgenda').css('margin-top','3px');
             $('.dayInAgenda').css('border-right-width','1px');
 
-            $('.agendaDetail').on( "swiperight", viewEventDetail );
+            // when user does click on day button in navbar, display all day titles
+            $('.daysInAgenda').on('click', displayDayTitles);
+
+            // when user does click on eventTitle, display details
+            $('.agendaTitle').on("click", displayDetails);
+
+            // when user does click on "> image", load description
+            $('.itemDescription').on( "click", viewDescription );
+
+            // when user does swiperight on eventDetail, load description
+            $('.agendaDetail').on( "swiperight", viewDescription );
+
+            // when user does click on "speaker name", load speaker data
+            $('.speaker').on( "click", viewSpeakerData );
+            
+            $('.eventPageContent').on( "swipeleft", goHome );
+            $('.speakerPageContent').on( "swipeleft", goHome );
         }
     });   
 }
@@ -124,31 +140,16 @@ function displaySelectedTitleDetails(daterange)
 	}
 }
 
-/* function to sort data read from json data file - called from onDeviceReady() and getTitles() functions*/
-var sort_by = function(field, reverse, primer){
-
-   var key = primer ? 
-       function(x) {return primer(x[field])} : 
-       function(x) {return x[field]};
-
-   reverse = !reverse ? 1 : -1;
-
-   return function (a, b) {
-       return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
-     } 
-}
-
 /* click event on button of navigation bar */
-$('.daysInAgenda').on('click', 'a', function() {
-	selDay = this.id; // id of clicked li by directly accessing DOMElement property
+function displayDayTitles (event) {
+	selDay = event.target.id; // id of clicked li by directly accessing DOMElement property
 	$('#'+selDay).addClass("ui-btn-active");	
 	// display titles of selected day
 	displaySelectedDayTitles(selDay);
- });
+ }
 
-/* click event on title item in titles list */
-$('.itemsInAgenda').on('click', '.agendaTitle', function() {
-	daterange = this.id; // id of clicked div with title
+function displayDetails (event) {
+	daterange = event.target.id; // id of clicked div with title
 	//if there is a description, than show details...
     if($('#shortDesc-'+daterange).text() != "")
     {
@@ -156,20 +157,11 @@ $('.itemsInAgenda').on('click', '.agendaTitle', function() {
     	// display detail of selected title
     	displaySelectedTitleDetails(daterange);
     }
- });
-
-
-
-function viewEventDetail( event ){
-    $( event.target ).addClass("highlight");
 }
 
+function viewDescription (event){
 
-/* click event on title item in titles list */
-$('.itemsInAgenda').on('click', '.itemDescription', function() {
-
-    evid = this.id;
-
+    evid = event.target.id;
     evIdArr = evid.split('-');
 
     evSD = evIdArr[1];
@@ -201,12 +193,12 @@ $('.itemsInAgenda').on('click', '.itemDescription', function() {
             displaySelectedTitleDescription(myEvent);
         }
     });
- });
+}
 
 /* click event on title item in titles list */
-$('.itemsInAgenda').on('click', '.speaker', function() {
+function viewSpeakerData (event) {
 
-    speakerId = this.id;
+    speakerId = event.target.id;
 
     speakerIdArr = speakerId.split('-');
 
@@ -245,7 +237,7 @@ $('.itemsInAgenda').on('click', '.speaker', function() {
             displaySelectedSpeaker(mySpeaker);
         }
     });
- });
+ }
 
 
 /* function to display description of a selected titles - called by onclick eventhandler on titles in titles list*/
@@ -274,13 +266,6 @@ function displaySelectedSpeaker(myspeaker)
     $('#speakerContent').html(speakerData);
 
     $.mobile.changePage("#selectedSpeakerPage");
-}
-
-
-function getURLParameter(name) {
-    return decodeURI(
-        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
-    );
 }
 
 function highlightsCurrentEvent()
@@ -347,4 +332,29 @@ function highlightsCurrentEvent()
     {
         console.log("err = " + err);
     }
+}
+
+function goHome (event)
+{
+    $.mobile.navigate( "#home" );
+}
+
+/* function to sort data read from json data file - called from onDeviceReady() and getTitles() functions*/
+var sort_by = function(field, reverse, primer){
+
+   var key = primer ? 
+       function(x) {return primer(x[field])} : 
+       function(x) {return x[field]};
+
+   reverse = !reverse ? 1 : -1;
+
+   return function (a, b) {
+       return a = key(a), b = key(b), reverse * ((a > b) - (b > a));
+     } 
+}
+
+function getURLParameter(name) {
+    return decodeURI(
+        (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search)||[,null])[1]
+    );
 }

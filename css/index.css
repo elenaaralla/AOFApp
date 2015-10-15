@@ -29,12 +29,6 @@
 
 .agendaDetail
 {
-	padding-right:2rem;
-}
-
-.icon
-{
-	float:right;
 	padding-right:0.5rem;
 }
 
@@ -64,15 +58,10 @@
 
 #h3
 {
-	background-image: url(../img/achab-footer-logo.svg);
+	background-image: url(../img/AchabFooter.png);
     background-repeat: no-repeat;
     background-position-y: 0.5rem;
     background-position-x: 50%;
-}
-
-#speakerContent
-{
-	/*padding-left: 1.5rem;*/
 }
 
 .eventTitle
@@ -80,7 +69,35 @@
 	font-weight: bold;
 }
 
-#eventContent
+.navicon
 {
-	/*padding-left: 1.5rem;*/
+    width: 28px;
+    height: 27px;
+}
+
+.left-icon
+{
+	
+	background-image: url(../img/left.png);
+	background-color: transparent;
+	background-position: left center;
+	background-repeat: no-repeat;
+	float:left;
+	padding-left:0.5rem;	
+}
+
+.right-icon
+{
+	background-image: url(../img/right.png);
+	background-color: transparent;
+	background-position: right center;
+	background-repeat: no-repeat;
+	float:right;
+	padding-right:0.5rem;	
+}
+
+.hide
+{
+    display: none !important;
+    visibility: hidden;
 }
