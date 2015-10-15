@@ -32,7 +32,7 @@
         <li data-corners="false" data-shadow="false" data-wrapperels="div" data-theme="c" class="titleInAgenda" id="title-{{startDate | titleId}}">
             <div class="agendaTitle" id="{{startDate}}-{{endDate}}">{{startDate | time}} - {{endDate | time}}<br><span>{{title}}</span></div>
             <div class="agendaDetail" id="details-{{startDate}}-{{endDate}}">
-                <a id="link-{{startDate}}-{{endDate}}" data-transition="slide" class="itemDescription icon navicon right-icon"><span class="hide">View details</span></a>
+                <a id="link-{{startDate}}-{{endDate}}" data-transition="none" class="itemDescription icon navicon right-icon"><span class="hide">View details</span></a>
                 <div id="shortDesc-{{startDate}}-{{endDate}}" class="shortDesc">{{description | lpad | leftN}}</div>
                 {{#speakers}}
                 <p>
