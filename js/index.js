@@ -3,7 +3,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 // debug - per provare senza ripple document.addEventListener("DOMContentLoaded", onDeviceReady, false);
 
-var firstDay;
+var selDay;
 
 function onDeviceReady() {
 
@@ -16,7 +16,7 @@ function onDeviceReady() {
         	data.days.sort(sort_by('groupLabel', false, function(a){return a.toUpperCase()}));
 
         	// set first item in agenda as firstDay
-        	firstDay =  data.days[0].groupLabel; // on first access, seleDay is the first day in array
+        	selDay =  data.days[0].groupLabel; // on first access, seleDay is the first day in array
 
             // load dateList template
             var dateListTemplate = $('#dateListTemplate').html();
@@ -42,6 +42,11 @@ function onDeviceReady() {
 
             $('.itemsInAgenda').css('margin-top','3px');
             $('.dayInAgenda').css('border-right-width','1px');
+
+            $(document).on("pageshow","#home",function(){
+                // set selected item in days list
+                $('#'+selDay).addClass("ui-btn-active"); 
+            });
 
             // when user does click on day button in navbar, display all day titles
             $('.daysInAgenda').on('click', displayDayTitles);
@@ -96,11 +101,6 @@ function displaySelectedDayTitles(selDay)
 {
     /* reset day selection */
     resetDaysSelection();
-
-    if($('#'+selDay).lenght == 0)
-    {
-        selDay = firstDay;
-    }
 
     // set selected item in days list
     $('#'+selDay).addClass("ui-btn-active"); 
@@ -273,21 +273,18 @@ function highlightsCurrentEvent()
     if(cdt)
     {
         currentDateTime = moment(cdt, 'YYYYMMDDTHHmmssZ');
-        console.log("url.cdt = " + cdt);
     }
 
     // day item (navbar): class="dayInAgenda" id="{{groupLabel}}" (i.e. id=date formatted in RFC882 (YYYYMMDDT000000Z)
     // hours range item (title) class="agendaTitle" id="{{startDate}}-{{endDate}}" (i.e. date range in RFC882)
-
-    dayInAgendaId = "";
 
     try
     {
         currentTime=currentDateTime.subtract(2, 'hours').format("HHmm");
         
         // set current day button active 
-        dayInAgendaId = currentDateTime.format("YYYYMMDD") + "T000000Z";
-        displaySelectedDayTitles(dayInAgendaId);
+        selDay = currentDateTime.format("YYYYMMDD") + "T000000Z";
+        displaySelectedDayTitles(selDay);
 
         // highlight right title
         $(".agendaTitle").each(function() {
