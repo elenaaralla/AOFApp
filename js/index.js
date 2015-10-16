@@ -273,18 +273,21 @@ function highlightsCurrentEvent()
 
     cdt = getURLParameter("cdt");
 
-    // if exist url paramenter 
-    if(cdt)
+    // if exist url paramenter and it's not null
+    if(cdt != null && $.trim(cdt) != "null")
     {
-        currentDateTime = moment(cdt, 'YYYYMMDDTHHmmssZ');
+        // capire come funziona il time zone; moment js, quando trasforma una stringa nel formato YYYYMMDDTHHmmss,
+        // ritorna la data con due ore in più, quindi sicuramente non è 
+        // quella locale; per la versione beta sottraggo le due ore di troppo; asap investighero su come gestire 
+        // l'ora locale, in modo da non dover correggere il codice con il cambio dell'ora :)
+        currentDateTime = moment(cdt, 'YYYYMMDDTHHmmssZ').subtract(2, 'hours');
     }
 
     // day item (navbar): class="dayInAgenda" id="{{groupLabel}}" (i.e. id=date formatted in RFC882 (YYYYMMDDT000000Z)
     // hours range item (title) class="agendaTitle" id="{{startDate}}-{{endDate}}" (i.e. date range in RFC882)
-
     try
     {
-        currentTime=currentDateTime.subtract(2, 'hours').format("HHmm");
+        currentTime=currentDateTime.format("HHmm");
         
         // set current day button active 
         selDay = currentDateTime.format("YYYYMMDD") + "T000000Z";
@@ -316,7 +319,7 @@ function highlightsCurrentEvent()
 
             // if current hour is between star date hour and end date hour and current minutes are between 
             //  star date hour and end date hour
-            if(currentTime >= startTime && currentTime <= endTime)
+            if(currentTime >= startTime && currentTime < endTime)
             {
                 $(this).addClass("highlight");
             }
