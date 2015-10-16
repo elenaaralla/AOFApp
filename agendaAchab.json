@@ -1,15 +1,15 @@
-{"days": [{ "groupLabel": "20151016T000000Z",
+{"days": [{ "groupLabel": "20151022T000000Z",
   "titlesGroup": [
   {
-    "startDate": "20151016T104500Z",
-    "endDate": "20151016T113000Z",
+    "startDate": "20151022T104500Z",
+    "endDate": "20151022T113000Z",
     "title": "Benvenuto e apertura dei lavori",
     "description": "",
     "speakers": []
   },
   {
-    "startDate": "20151016T113000Z",
-    "endDate": "20151016T130000Z",
+    "startDate": "20151022T113000Z",
+    "endDate": "20151022T130000Z",
     "title": "Workshop su Windows 10",
     "description": "<ul style='padding-left:44px;border-top:1px'><li>Introduzione a Windows 10: le novità e il valore per i nostri clienti</li><li>Overview tecnica sulle novità di Windows 10</li><li>L'installazione di Windows 10</li><li>Il passaggio a Windows 10: metodi di deployment e differenze legate alle varie versioni</li><li>Un’unica piattaforma Windows: Phone, Tablet, Desktop e IoT</li><li>Innovazione continua grazie a Windows as a Service: come gestire gli aggiornamenti</li></ul>",
     "speakers": [
@@ -30,15 +30,15 @@
     ]
   },
   {
-    "startDate": "20151016T130000Z",
-    "endDate": "20151016T140000Z",
+    "startDate": "20151022T130000Z",
+    "endDate": "20151022T140000Z",
     "title": "Light lunch",
     "description": "",
     "speakers": []
   },  
   {
-    "startDate": "20151016T140000Z",
-    "endDate": "20151016T151500Z",
+    "startDate": "20151022T140000Z",
+    "endDate": "20151022T151500Z",
     "title": "Presentazione della nuova soluzione Datto",
     "description": "Backup, disaster recovery o business continuity?<br>Si fa presto a dire backup ma esso non è più sufficiente.<br>Il backup si occupa dei dati, ma il business chi lo protegge?<br>Per gli studi professionali e le imprese, l'IT è diventato critico e i downtime rappresentano un costo difficilmente sostenibile. E' necessario proteggere sistemi, applicazioni e dati sia in locale sia in cloud, garantendo ripartenza immediata a fronte di un problema, senza perdere di vista la semplicità d’uso e il margine per chi fornisce servizi IT.<br>Datto assicura ripartenze immediate sia in locale sia in cloud, strizzando l’occhio al business dei service provider.<br><br>",
     "speakers": [
@@ -52,8 +52,8 @@
     ]
   },  
   {
-    "startDate": "20151016T151500Z",
-    "endDate": "20151016T161500Z",
+    "startDate": "20151022T151500Z",
+    "endDate": "20151022T161500Z",
     "title": "Presentazione della nuova soluzione Autotask Endpoint Management",
     "description": "L'aumento esponenziale dei dispositivi rende necessario l'utilizzo di strumenti efficienti per la gestione remota delle reti.<br>I fornitori di servizi IT devono scegliere una soluzione che li aiuti, che faccia risparmiare tempo e aumentare i margini.<br>Autotask Endpoint Management è una soluzione cloud per la gestione centralizzata dei dispositivi che devi supportare e che garantisce visibilità completa su PC, server, workstation e mobile.<br>Per AEM flessibilità, efficienza e semplicità d’uso sono le parole d’ordine.<br><br>",
     "speakers": [
@@ -67,15 +67,15 @@
     ]
   }, 
   {
-    "startDate": "20151016T161500Z",
-    "endDate": "20151016T164500Z",
+    "startDate": "20151022T161500Z",
+    "endDate": "20151022T164500Z",
     "title": "Coffee break e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
   },   
   {
-    "startDate": "20151016T164500Z",
-    "endDate": "20151016T172000Z",
+    "startDate": "20151022T164500Z",
+    "endDate": "20151022T172000Z",
     "title": "Costi di un incidente IT",
     "description": "Troppo spesso non si è in grado di valutare il costo aziendale di un incidente IT. Il che è assurdo perché vuol dire che non si hanno elementi quantitativi per valutare quali contromisure prevedere per evitare che l'incidente si verifichi.<br>Renato Castroreale illustra un modello semplificato per calcolare il costo di un incidente che tiene in considerazione le componenti di danno legate a improduttività, indisponibilità, riservatezza, integrità, immagine e ripristino.",
     "speakers": [
@@ -89,8 +89,8 @@
     ]
   }, 
   {
-    "startDate": "20151016T172000Z",
-    "endDate": "20151016T175500Z",
+    "startDate": "20151022T172000Z",
+    "endDate": "20151022T175500Z",
     "title": "Perché essere MSP conviene",
     "description": "Sono in atto cambiamenti epocali: la pervasività del cloud, i dati sparpagliati ovunque, la crescita dei dispositivi e delle applicazioni connesse, la crescente esigenza di disponibilità da parte dei clienti (e la loro maggiore consapevolezza) e il cybercrime con il suo giro d'affari da capogiro.<br>Vediamo insieme perché l’approccio MSP (se non MSP 2.0) è il più conveniente per chi eroga servizi IT e deve garantire la marginalità propria e dei clienti.",
     "speakers": [
@@ -104,8 +104,8 @@
     ]
   }, 
   {
-    "startDate": "20151016T183000Z",
-    "endDate": "20151016T240000Z",
+    "startDate": "20151022T183000Z",
+    "endDate": "20151022T240000Z",
     "title": "Serata insieme",
     "description": "<span style='padding-left:44px;'><strong>19:00 - 20:00</strong> Aperitivo</span><br><span style='padding-left:44px;'><strong>20:00 - 22:00</strong> Cena conviviale</span><br><span style='padding-left:44px;'><strong>22:00 - 24:00</strong> Intrattenimento</span><br>",
     "speakers": []
