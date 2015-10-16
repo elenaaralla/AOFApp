@@ -157,6 +157,8 @@ function displayDetails (event) {
 
 function viewDescription (event){
 
+    $('#'+selDay).append("x"); 
+
     evid = event.target.id;
     evIdArr = evid.split('-');
 
