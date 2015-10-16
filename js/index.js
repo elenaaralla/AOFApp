@@ -247,7 +247,9 @@ function displaySelectedTitleDescription(myevent)
     // load data into eventContent div
     $('#eventContent').html(eventData);
 
-    $.mobile.navigate("#selectedEventPage");
+    //$.mobile.navigate("#selectedEventPage");
+    $( ":mobile-pagecontainer" ).pagecontainer( "change", "#selectedEventPage", { transition : "none" } );
+
 }
 
 /* function to display curriculum of a selected speaker - called by onclick eventhandler on link in speakers list*/
@@ -261,7 +263,8 @@ function displaySelectedSpeaker(myspeaker)
     // load data into speakerContent div
     $('#speakerContent').html(speakerData);
 
-    $.mobile.navigate("#selectedSpeakerPage");
+    //$.mobile.navigate("#selectedSpeakerPage");
+    $( ":mobile-pagecontainer" ).pagecontainer( "change", "#selectedSpeakerPage", { transition : "none" } );
 }
 
 function highlightsCurrentEvent()
@@ -329,7 +332,8 @@ function highlightsCurrentEvent()
 
 function goHome (event)
 {
-    $.mobile.navigate( "#home" );
+    //$.mobile.navigate( "#home" );
+    $( ":mobile-pagecontainer" ).pagecontainer( "change", "#home", { transition : "none" } );
 }
 
 /* function to sort data read from json data file - called from onDeviceReady() and getTitles() functions*/

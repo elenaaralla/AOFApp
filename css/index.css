@@ -111,3 +111,5 @@
     color: #fff /*{a-active-color}*/;
     text-shadow: 0 /*{a-active-shadow-x}*/ 1px /*{a-active-shadow-y}*/ 0 /*{a-active-shadow-radius}*/ #005599 /*{a-active-shadow-color}*/;
 }
+
+#footer {position:fixed;z-index:10;bottom:0;width:100%}
