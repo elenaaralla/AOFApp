@@ -6,9 +6,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
 var selDay;
 
 function onDeviceReady() {
-	
+	$.mobile.loading("hide");
     $('.app').show();
-    
+
     /* ajax call to get data from agendaAchab.json */
 	$.ajax({url: './agendaAchab.json',
         dataType: "json",
