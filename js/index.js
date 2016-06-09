@@ -6,9 +6,11 @@ document.addEventListener("deviceready", onDeviceReady, false);
 var selDay;
 
 function onDeviceReady() {
-
-	/* ajax call to get data from agendaAchab.json */
-	$.ajax({url: "./agendaAchab.json",
+	
+    $('.app').show();
+    
+    /* ajax call to get data from agendaAchab.json */
+	$.ajax({url: './agendaAchab.json',
         dataType: "json",
         async: true,
         success: function (data) { 
@@ -97,7 +99,7 @@ function resetDaysSelection()
 	});
 }
 
-/* function to display all title of a delected day - called by  - called by onDeviceReady() function and onclick eventhandler on button in navbar */
+/* function to display all title of a selected day - called by  - called by onDeviceReady() function and onclick eventhandler on button in navbar */
 function displaySelectedDayTitles(selDay)
 {
     /* reset day selection */
@@ -278,7 +280,7 @@ function highlightsCurrentEvent()
     {
         // capire come funziona il time zone; moment js, quando trasforma una stringa nel formato YYYYMMDDTHHmmss,
         // ritorna la data con due ore in più, quindi sicuramente non è 
-        // quella locale; per la versione beta sottraggo le due ore di troppo; asap investighero su come gestire 
+        // quella locale; per la versione beta sottraggo le due ore di troppo; asap investigherò su come gestire 
         // l'ora locale, in modo da non dover correggere il codice con il cambio dell'ora :)
         currentDateTime = moment(cdt, 'YYYYMMDDTHHmmssZ').subtract(2, 'hours');
     }
@@ -287,6 +289,7 @@ function highlightsCurrentEvent()
     // hours range item (title) class="agendaTitle" id="{{startDate}}-{{endDate}}" (i.e. date range in RFC882)
     try
     {
+        currentDate=currentDateTime.format("YYYYMMDD");
         currentTime=currentDateTime.format("HHmm");
         
         // set current day button active 
@@ -308,6 +311,8 @@ function highlightsCurrentEvent()
             // current time
             //currentTime = (c_hour+c_min)*1;
 
+            evDate = evSD.format("YYYYMMDD");
+
             // current start time
             startTime = evSD.format("HHmm");//((evSD.hour()-2) + '' + evSD.minute() )*1;
             // current end time
@@ -317,10 +322,10 @@ function highlightsCurrentEvent()
                 endTime = "2400";
             };            
 
-            // if current hour is between star date hour and end date hour and current minutes are between 
-            //  star date hour and end date hour
-            if(currentTime >= startTime && currentTime < endTime)
+            // if event date is equal to current date and current time is between star time and end time
+            if(evDate == currentDate && currentTime >= startTime && currentTime < endTime)
             {
+
                 $(this).addClass("highlight");
             }
           }
