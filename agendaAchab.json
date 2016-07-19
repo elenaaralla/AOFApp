@@ -24,14 +24,14 @@
   {
     "startDate": "20161013T143000Z",
     "endDate": "20161013T150000Z",
-    "title": "Dal restore che non funziona all’erogazione di servizi di disaster recovery",
-    "description": "Perché passare dalla vendita di prodotti all’erogazione di servizi? Come si fa a dare una svolta alla propria attività per aumentare i margini? Ce lo racconta Chris Tate che nella sua carriera ha guidato e vissuto questo cambiamento in diverse aziende, creando servizi ad elevato valore per i clienti e ad alta redditività per le sue aziende.",
+    "title": "Dal restore che non funziona all'erogazione di servizi di disaster recovery",
+    "description": "Perché passare dalla vendita di prodotti all'erogazione di servizi? Come si fa a dare una svolta alla propria attività per aumentare i margini? Ce lo racconta Chris Tate che nella sua carriera ha guidato e vissuto questo cambiamento in diverse aziende, creando servizi ad elevato valore per i clienti e ad alta redditività per le sue aziende.",
     "speakers": [
       {
         "name": "Chris",
         "lastname": "Tate",
         "title": "Business Development Director di Datto ",
-        "curriculum": "Autorità e riferimento indiscusso nel mondo dei servizi, ha sempre lavorato in prima linea nel campo dell’Information Technology portando al successo aziende come Tiedata e GCI gestendone la transizione dalla vendita dei prodotti alla vendita dei servizi.Ha ideato e lanciato il portale TotallyMSP.COM dove i service provider possono trovare spunti, interviste, recensioni e tutto quanto ruota attorno al mondo dei servizi IT.Da giugno 2016 lavora con Datto come Business Development Director.",
+        "curriculum": "Autorità e riferimento indiscusso nel mondo dei servizi, ha sempre lavorato in prima linea nel campo dell'Information Technology portando al successo aziende come Tiedata e GCI gestendone la transizione dalla vendita dei prodotti alla vendita dei servizi.Ha ideato e lanciato il portale TotallyMSP.COM dove i service provider possono trovare spunti, interviste, recensioni e tutto quanto ruota attorno al mondo dei servizi IT.Da giugno 2016 lavora con Datto come Business Development Director.",
         "image": "./img/Tate.png"
       }
     ]
@@ -40,13 +40,13 @@
     "startDate": "20161013T150500Z",
     "endDate": "20161013T154000Z",
     "title": "Da NT backup al cloud: la storia di BackupAssist",
-    "description": "Come nasce e si evolve un software di backup? Lo racconta direttamente Linus Chang, l’inventore di BackupAssist. Fin da bambino Linus si dimostra subito un promettente geek iniziando a programmare giovanissimo. Terminati gli studi ha la folgorazione: costruire un software di backup. Il lavoro è duro ma Linus non molla e, supportato da un team marketing e vendite, la sua creature raggiunge notorietà mondiale ma l’evoluzione continua… dove arriverà BackupAssist?",
+    "description": "Come nasce e si evolve un software di backup? Lo racconta direttamente Linus Chang, l'inventore di BackupAssist. Fin da bambino Linus si dimostra subito un promettente geek iniziando a programmare giovanissimo. Terminati gli studi ha la folgorazione: costruire un software di backup. Il lavoro è duro ma Linus non molla e, supportato da un team marketing e vendite, la sua creature raggiunge notorietà mondiale ma l'evoluzione continua… dove arriverà BackupAssist?",
     "speakers": [
       {
         "name": "Linus",
         "lastname": "Chang",
         "title": "Fondatore di Cortex I.T.",
-        "curriculum": "Linus inizia a programmare e costruire circuiti elettrici a 8 anni, già aveva una grande passione per la tecnologia. Subito dopo l’università, Linus sviluppa e rilascia la prima versione di BackupAssist. Le difficoltà a portare avanti lo sviluppo del prodotto lo fanno quasi desistere ma stringe i denti e continua a sviluppare il software. L’incontro con Seven Chua è decisivo per la crescita del business. Dopo anni di duro lavori BackupAssist è una realtà affermata in oltre 145 paesi con oltre 10.000 copie vendute. Parte dei profitti derivanti da BackupAssist vengono devoluti in attività a sostegno delle adozioni a distanza. Oltre al suo business, Linus ama i viaggi, le escursioni e il pianoforte.",
+        "curriculum": "Linus inizia a programmare e costruire circuiti elettrici a 8 anni, già aveva una grande passione per la tecnologia. Subito dopo l'università, Linus sviluppa e rilascia la prima versione di BackupAssist. Le difficoltà a portare avanti lo sviluppo del prodotto lo fanno quasi desistere ma stringe i denti e continua a sviluppare il software. L'incontro con Seven Chua è decisivo per la crescita del business. Dopo anni di duro lavori BackupAssist è una realtà affermata in oltre 145 paesi con oltre 10.000 copie vendute. Parte dei profitti derivanti da BackupAssist vengono devoluti in attività a sostegno delle adozioni a distanza. Oltre al suo business, Linus ama i viaggi, le escursioni e il pianoforte.",
         "image": "./img/Chang.png"
       }
     ]
@@ -62,13 +62,13 @@
     "startDate": "20161013T161000Z",
     "endDate": "20161013T164500Z",
     "title": "Kaseya 3.0",
-    "description": "A poco più di un anno dal suo insediamento, Fred fa il punto della situazione sul mercato, sull’azienda e sui prodotti. In un contesto in cui le aziende si spostano sul cloud e il tradizionale ruolo dei fornitori di servizi sembra essere messo in discussione, per gli IT service provider la sfida è ridurre i costi e continuare a offrire (nuovi) servizi senza essere \"spazzati via\".",
+    "description": "A poco più di un anno dal suo insediamento, Fred fa il punto della situazione sul mercato, sull'azienda e sui prodotti. In un contesto in cui le aziende si spostano sul cloud e il tradizionale ruolo dei fornitori di servizi sembra essere messo in discussione, per gli IT service provider la sfida è ridurre i costi e continuare a offrire (nuovi) servizi senza essere \"spazzati via\".",
     "speakers": [
       {
         "name": "Fred",
         "lastname": "Voccola",
         "title": "CEO di Kaseya",
-        "curriculum": "Fred vanta una ventennale esperienza nel mondo della tecnologia, vissuto sotto diversi punti di vista: marketing, vendite e direzione generale. Prima di approdare a Kaseya nel 2015 è stato, fra l’altro, general manager di YBN, presidente di Nolio, CEO di FGI e responsabile vendite mondiale per BMC. La sua esperienza nell’ambito di internet, delle comunicazione, del software as a service e delle telecomunicazioni gli conferiscono capacità di \"visione\" unitamente alla praticità e all’attitudine al problem solving.",
+        "curriculum": "Fred vanta una ventennale esperienza nel mondo della tecnologia, vissuto sotto diversi punti di vista: marketing, vendite e direzione generale. Prima di approdare a Kaseya nel 2015 è stato, fra l'altro, general manager di YBN, presidente di Nolio, CEO di FGI e responsabile vendite mondiale per BMC. La sua esperienza nell'ambito di internet, delle comunicazione, del software as a service e delle telecomunicazioni gli conferiscono capacità di \"visione\" unitamente alla praticità e all'attitudine al problem solving.",
         "image": "./img/Voccola.png"
       }
     ]
@@ -94,13 +94,13 @@
     "startDate": "20161014T093000Z",
     "endDate": "20161014T100000Z",
     "title": "Ciclo di vita di un virus",
-    "description": "All’interno di uno scenario in cui le minacce e il malware colpiscono indistintamente aziende grandi e piccole, qual è il ciclo di vita di un virus? Spiegazioni teoriche ed esempi "live" chiariscono lo stato dell’arte di virus e malware.",
+    "description": "All'interno di uno scenario in cui le minacce e il malware colpiscono indistintamente aziende grandi e piccole, qual è il ciclo di vita di un virus? Spiegazioni teoriche ed esempi \"live\" chiariscono lo stato dell'arte di virus e malware.",
     "speakers": [
       {
         "name": "John",
         "lastname": "McLaughlin",
         "title": "Channel manager EMEA di Webroot",
-        "curriculum": "John McLaughlin ha un’esperienza tecnica pluriennale maturata in diversi settori tra cui grandi aziende di telecomunicazione, società di servizi e ISP. All’interno di Webroot ha ricoperto diversi ruoli fino a diventare Sales Engineer per il mercato EMEA. La mutevole complessità delle minacce informatiche pone a John McLaughlin sfide quotidiane, dandogli l’opportunità di affinare le capacità di rilevamento e rimozione malware. E proprio il rilevamento manuale e a livello di rete ha rappresentato una parte fondamentale nel suo lavoro in Webroot.",
+        "curriculum": "John McLaughlin ha un'esperienza tecnica pluriennale maturata in diversi settori tra cui grandi aziende di telecomunicazione, società di servizi e ISP. All'interno di Webroot ha ricoperto diversi ruoli fino a diventare Sales Engineer per il mercato EMEA. La mutevole complessità delle minacce informatiche pone a John McLaughlin sfide quotidiane, dandogli l'opportunità di affinare le capacità di rilevamento e rimozione malware. E proprio il rilevamento manuale e a livello di rete ha rappresentato una parte fondamentale nel suo lavoro in Webroot.",
         "image": "./img/McLaughlin.png"
       }
     ]
@@ -108,8 +108,8 @@
   {
     "startDate": "20161014T100500Z",
     "endDate": "20161014T103500Z",
-    "title": "Vent’anni di MDaemon",
-    "description": "Nel 2016 Alt-N Technologies festeggia i vent’anni di MDaemon, il mail server pluripremiato per la sua convenienza, affidabilità e sicurezza. Dalle sue umili origini, nella cucina di un appartamento a Arlington, in Texas, ora MDaemon è utilizzato da migliaia di aziende in oltre 90 paesi nel mondo. Kevin, nel suo intervento, ci racconterà alcuni passaggi salienti della storia del prodotto, le sfide intraprese per arrivare all’attuale versione e il futuro che ci attende per i prossimi 20 anni.",
+    "title": "Vent'anni di MDaemon",
+    "description": "Nel 2016 Alt-N Technologies festeggia i vent'anni di MDaemon, il mail server pluripremiato per la sua convenienza, affidabilità e sicurezza. Dalle sue umili origini, nella cucina di un appartamento a Arlington, in Texas, ora MDaemon è utilizzato da migliaia di aziende in oltre 90 paesi nel mondo. Kevin, nel suo intervento, ci racconterà alcuni passaggi salienti della storia del prodotto, le sfide intraprese per arrivare all'attuale versione e il futuro che ci attende per i prossimi 20 anni.",
     "speakers": [
       {
         "name": "Kevin",
@@ -131,12 +131,12 @@
     "startDate": "20161014T111000Z",
     "endDate": "20161014T1140000Z",
     "title": "@M3rd4hopersolamail",
-    "description": "All’inizio della sua carriera, Stefan, il fondatore di MailStore, aveva accumulato nella sua casella di posta un numero così elevato di messaggi che si chiedeva come avrebbe potuto custodire per il futuro una miniera di informazioni così importante. Pensò che per far vedere le foto agli amici e parenti si usavano gli album delle foto… Stefan voleva creare la stessa cosa per le email, un \"contenitore\" da consultare ogni volta che si voleva. Così nasceva MailStore Home…",
+    "description": "All'inizio della sua carriera, Stefan, il fondatore di MailStore, aveva accumulato nella sua casella di posta un numero così elevato di messaggi che si chiedeva come avrebbe potuto custodire per il futuro una miniera di informazioni così importante. Pensò che per far vedere le foto agli amici e parenti si usavano gli album delle foto… Stefan voleva creare la stessa cosa per le email, un \"contenitore\" da consultare ogni volta che si voleva. Così nasceva MailStore Home…",
     "speakers": [
       {
         "name": "Daniel",
         "lastname": "Weuthen",
-        "title": "Direttore dell’Ingegneria di MailStore",
+        "title": "Direttore dell'Ingegneria di MailStore",
         "curriculum": "Daniel Weuthen, entrato MailStore nel 2009, ha gestito fino ad agosto 2015 il team dedicato al supporto tecnico pre e post vendita per i clienti MailStore.<br><br>In qualità di Direttore dell'Ingegneria ora è responsabile della divisione che si occupa dello sviluppo della soluzione. Inoltre è membro del team di gestione di MailStore poiché, con i suoi 17 anni di esperienza nel settore delle infrastrutture di posta elettronica e della sicurezza IT, ha un ruolo chiave nelle decisioni circa&nbsp;i futuri sviluppi del software.<br><br>Prima di entrare in MailStore, Daniel ha lavorato per un fornitore di servizi regionali tedesco e ha progettato e implementato soluzioni su misura basate su software Open Source per aziende di diverso taglio di tutto il mondo.<br>",
         "image": "./img/Weuthen.png"
       }
@@ -145,14 +145,14 @@
   {
     "startDate": "20161014T114500Z",
     "endDate": "20161014T124500Z",
-    "title": "Quando arriva la ripresa? Cos’è stata questa crisi?",
-    "description": "Sebastiamo Barisoni, autorevole voce di Radio 24, analizza la "crisi": dagli elementi congiunturali internazionali ed europei ai rischi di una tempesta perfetta. Ma è davvero una crisi? O c’è un cambio strutturale nell’atteggiamento del consumatore? Ci spiega chi si può salvare analizzando i settori più penalizzati e quelli invece in crescita, cerando di capire se il ritorno all’età dell’oro è un’illusione o meno.",
+    "title": "Quando arriva la ripresa? Cos'è stata questa crisi?",
+    "description": "Sebastiamo Barisoni, autorevole voce di Radio 24, analizza la \"crisi\": dagli elementi congiunturali internazionali ed europei ai rischi di una tempesta perfetta. Ma è davvero una crisi? O c'è un cambio strutturale nell'atteggiamento del consumatore? Ci spiega chi si può salvare analizzando i settori più penalizzati e quelli invece in crescita, cerando di capire se il ritorno all'età dell'oro è un'illusione o meno.",
     "speakers": [
       {
         "name": "Sebastiano",
         "lastname": "Barisoni",
         "title": "Giornalista di Radio24",
-        "curriculum": "Nato a Roma, laureato in relazioni internazionali a Firenze, giornalista professionista dal 1996, dopo tre anni di esperienza a Londra a Bloomberg Television, approda nel 1999 a Radio 24 dove si occupa di finanza e risparmio conducendo inizialmente "Salvadanaio" per passare in seguito all’attualità economica di "Focus Economia", realizzato con i protagonisti della giornata economico-finanziaria ed il contributo di giornalisti e analisti de Il Sole 24 Ore. Ha percorso tutti i passaggi nell’organigramma di Radio 24 fino a diventarne Vicedirettore Esecutivo nel 2013. Da ottobre 2015 è membro del Board di Oxfam Italia, ONG internazionale, specializzata in aiuti umanitari e progetti di sviluppo.",
+        "curriculum": "Nato a Roma, laureato in relazioni internazionali a Firenze, giornalista professionista dal 1996, dopo tre anni di esperienza a Londra a Bloomberg Television, approda nel 1999 a Radio 24 dove si occupa di finanza e risparmio conducendo inizialmente \"Salvadanaio\" per passare in seguito all'attualità economica di \"Focus Economia\", realizzato con i protagonisti della giornata economico-finanziaria ed il contributo di giornalisti e analisti de Il Sole 24 Ore. Ha percorso tutti i passaggi nell'organigramma di Radio 24 fino a diventarne Vicedirettore Esecutivo nel 2013. Da ottobre 2015 è membro del Board di Oxfam Italia, ONG internazionale, specializzata in aiuti umanitari e progetti di sviluppo.",
         "image": "./img/Barisoni.png"
       }
     ]
@@ -174,7 +174,7 @@
         "name": "Marco Maria",
         "lastname": "Lorusso",
         "title": "Direttore Responsabile di Digital4Trade",
-        "curriculum": "Giornalista, da luglio 2013 è Direttore Responsabile di Digital4Trade, piattaforma di comunicazione multimediale (Carta, Video, Web, Eventi, Lead Generation, Consulenza) dedicata al mondo del Canale ICT e a tutti coloro hanno il compito di portare l’innovazione nelle imprese italiane. Inizia a scrivere di cronaca per Il Giorno e diversi settimanali locali a 17 anni. Debutta nel 2000 nel mondo ICT prima come collaboratore e poi come caporedattore di alcune riviste storiche del settore come Top Trade Informatica, Linea EDP. Collabora negli anni con Espansione, Il Sole 24 Ore, Applicando, La Repubblica. Dal 2011 al 2013 partecipa al lancio e allo sviluppo del progetto Digitalic. Pugile mancato, una passione insana per Dylan Dog, Quentin Tarantino, la pastiera napoletana e ogni singolo numero legato al calcio, lo trovate su twitter: @MarcoLorux",
+        "curriculum": "Giornalista, da luglio 2013 è Direttore Responsabile di Digital4Trade, piattaforma di comunicazione multimediale (Carta, Video, Web, Eventi, Lead Generation, Consulenza) dedicata al mondo del Canale ICT e a tutti coloro hanno il compito di portare l'innovazione nelle imprese italiane. Inizia a scrivere di cronaca per Il Giorno e diversi settimanali locali a 17 anni. Debutta nel 2000 nel mondo ICT prima come collaboratore e poi come caporedattore di alcune riviste storiche del settore come Top Trade Informatica, Linea EDP. Collabora negli anni con Espansione, Il Sole 24 Ore, Applicando, La Repubblica. Dal 2011 al 2013 partecipa al lancio e allo sviluppo del progetto Digitalic. Pugile mancato, una passione insana per Dylan Dog, Quentin Tarantino, la pastiera napoletana e ogni singolo numero legato al calcio, lo trovate su twitter: @MarcoLorux",
         "image": "./img/Lorusso.png"
       }
     ]
