@@ -52,62 +52,39 @@
     ]
   },  
   {
-    "startDate": "20161013T151500Z",
-    "endDate": "20161013T161500Z",
-    "title": "Presentazione della nuova soluzione Autotask Endpoint Management",
-    "description": "L'aumento esponenziale dei dispositivi rende necessario l'utilizzo di strumenti efficienti per la gestione remota delle reti.<br>I fornitori di servizi IT devono scegliere una soluzione che li aiuti, che faccia risparmiare tempo e aumentare i margini.<br>Autotask Endpoint Management è una soluzione cloud per la gestione centralizzata dei dispositivi che devi supportare e che garantisce visibilità completa su PC, server, workstation e mobile.<br>Per AEM flessibilità, efficienza e semplicità d’uso sono le parole d’ordine.<br><br>",
-    "speakers": [
-      {
-        "name": "Mark",
-        "lastname": "Cattini",
-        "title": "Presidente e CEO di Autotask",
-        "curriculum": "La sua passione per la tecnologia, la cura per la qualità e la dedizione per i clienti e il loro successo, hanno contribuito alla crescita di Autotask e all'espansione delle sue soluzioni in tutto il mondo.<br><br>Mark ha svolto la sua carriera nel mondo dei software in Gran Bretagna, presso diverse aziende tecnologiche. Dopo aver lavorato per nove anni alla Lotus Development, è stato Presidente e CEO di Awarness, Inc., una società di sviluppo software in ambito social media. Successivamente ha ricoperto la carica di Presidente e CEO di MapInfo Corporation in cui, per 17 trimestri consecutivi, è stata registrata una crescita record. Dopo l'acquisizione, nel 2007, da parte di Pitney Bowes, Mark ne è diventato Presidente e membro del gruppo dirigente.<br><br><a name='chua'></a>Mark si è laureato in Economia e Commercio, con lode, alla Thames Valley University di Londra.<br><br>",
-        "image": "./img/Mark-Cattini.png"
-      }
-    ]
-  }, 
-  {
-    "startDate": "20161013T161500Z",
-    "endDate": "20161013T164500Z",
+    "startDate": "20161013T154000Z",
+    "endDate": "20161013T161000Z",
     "title": "Coffee break e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
-  },   
+  }, 
+  {
+    "startDate": "20161013T161000Z",
+    "endDate": "20161013T164500Z",
+    "title": "Kaseya 3.0",
+    "description": "A poco più di un anno dal suo insediamento, Fred fa il punto della situazione sul mercato, sull’azienda e sui prodotti. In un contesto in cui le aziende si spostano sul cloud e il tradizionale ruolo dei fornitori di servizi sembra essere messo in discussione, per gli IT service provider la sfida è ridurre i costi e continuare a offrire (nuovi) servizi senza essere \"spazzati via\".",
+    "speakers": [
+      {
+        "name": "Fred",
+        "lastname": "Voccola",
+        "title": "CEO di Kaseya",
+        "curriculum": "Fred vanta una ventennale esperienza nel mondo della tecnologia, vissuto sotto diversi punti di vista: marketing, vendite e direzione generale. Prima di approdare a Kaseya nel 2015 è stato, fra l’altro, general manager di YBN, presidente di Nolio, CEO di FGI e responsabile vendite mondiale per BMC. La sua esperienza nell’ambito di internet, delle comunicazione, del software as a service e delle telecomunicazioni gli conferiscono capacità di \"visione\" unitamente alla praticità e all’attitudine al problem solving.",
+        "image": "./img/Voccola.png"
+      }
+    ]
+  }, 
   {
     "startDate": "20161013T164500Z",
-    "endDate": "20161013T172000Z",
-    "title": "Costi di un incidente IT",
-    "description": "Troppo spesso non si è in grado di valutare il costo aziendale di un incidente IT. Il che è assurdo perché vuol dire che non si hanno elementi quantitativi per valutare quali contromisure prevedere per evitare che l'incidente si verifichi.<br>Renato Castroreale illustra un modello semplificato per calcolare il costo di un incidente che tiene in considerazione le componenti di danno legate a improduttività, indisponibilità, riservatezza, integrità, immagine e ripristino.",
-    "speakers": [
-      {
-        "name": "Renato",
-        "lastname": "Castroreale",
-        "title": "ICT Manager di Sistemi H.S. S.p.A.",
-        "curriculum": "Da sempre appassionato di informatica e tecnologia, ha iniziato la sua carriera come programmatore per poi passare al settore tecnico/sistemistico e quindi alla gestione dei servizi tecnici.&nbsp;Attualmente è Direttore dei Servizi Tecnici in Sistemi H.S. S.p.A..<br><br>E’ esperto di ITIL e di Sistemi di Gestione, in particolare di ISO 27001. Recentemente ha progettato e coordinato lo sviluppo e la commercializzazione di alcuni software specifici per la gestione dei requisiti dei sistemi citati.<br><br><a name='cipolleschi'></a>La sua ultima passione è il cloud per il quale nutre un amore viscerale.&nbsp;",
-        "image": "./img/Castroreale-small.png"
-      }
-    ]
+    "endDate": "20161013T173000Z",
+    "title": "Keynote speech",
+    "description": "Speaker e contenuti da definire",
+    "speakers": []
   }, 
   {
-    "startDate": "20161013T172000Z",
-    "endDate": "20161013T175500Z",
-    "title": "Perché essere MSP conviene",
-    "description": "Sono in atto cambiamenti epocali: la pervasività del cloud, i dati sparpagliati ovunque, la crescita dei dispositivi e delle applicazioni connesse, la crescente esigenza di disponibilità da parte dei clienti (e la loro maggiore consapevolezza) e il cybercrime con il suo giro d'affari da capogiro.<br>Vediamo insieme perché l’approccio MSP (se non MSP 2.0) è il più conveniente per chi eroga servizi IT e deve garantire la marginalità propria e dei clienti.",
-    "speakers": [
-      {
-        "name": "Andrea",
-        "lastname": "Veca",
-        "title": "CEO di Achab",
-        "curriculum": "",
-        "image": ""
-      }
-    ]
-  }, 
-  {
-    "startDate": "20161013T183000Z",
+    "startDate": "20161013T180000Z",
     "endDate": "20161013T240000Z",
     "title": "Serata insieme",
-    "description": "<span style='padding-left:44px;'><strong>19:00 - 20:00</strong> Aperitivo</span><br><span style='padding-left:44px;'><strong>20:00 - 22:00</strong> Cena conviviale</span><br><span style='padding-left:44px;'><strong>22:00 - 24:00</strong> Intrattenimento</span><br>",
+    "description": "<span style='padding-left:44px;'><strong>18:00 - 20:00</strong> Check-in presso gli hotel</span><br><span style='padding-left:44px;'><strong>20:30 - 22:30</strong> Cena conviviale</span><br><span style='padding-left:44px;'><strong>22:30 - 24:00</strong> Intrattenimento a sorpresa, networking & bar</span><br>",
     "speakers": []
   }
 ]},
@@ -115,47 +92,25 @@
   "titlesGroup": [
   {
     "startDate": "20161014T093000Z",
-    "endDate": "20161014T101000Z",
-    "title": "Sessione commerciale – Webroot",
-    "description": "Valore, soluzione di problemi e soddisfazione del cliente.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per vendere al meglio Webroot.",
+    "endDate": "20161014T100000Z",
+    "title": "Ciclo di vita di un virus",
+    "description": "All’interno di uno scenario in cui le minacce e il malware colpiscono indistintamente aziende grandi e piccole, qual è il ciclo di vita di un virus? Spiegazioni teoriche ed esempi "live" chiariscono lo stato dell’arte di virus e malware.",
     "speakers": [
       {
-        "name": "Luca",
-        "lastname": "Battistini",
-        "title": "Socio di Battistini S.r.l.",
-        "curriculum": "Luca Battistini è socio della Battistini S.r.l., società che dal 1978 fornisce servizi di assistenza e consulenza informatica nel territorio della provincia di Vicenza.<br><br></a>In qualità di responsabile tecnico e commerciale, Luca si occupa di gestione informatica a 360° per aziende di piccole e medie dimensioni, in particolare è impegnato nello sviluppo di infrastrutture di rete Microsoft, nella realizzazione di progetti di virtualizzazione e di gestione di mail server e di software per la sicurezza e il salvataggio dati. Nella sua esperienza non mancano progetti di consulenza e gestione connessioni dati, VoIP e fonia e lo sviluppo, basato su richieste specifiche, di piattaforme web verticali integrate con i gestionali aziendali.",
-        "image": "./img/Battistini-small.png"
-      },
-      {
-        "name": "Mauro",
-        "lastname": "Brunello",
-        "title": "Co-owner di Infotre S.r.l.",
-        "curriculum": "Mauro Brunello è socio e responsabile tecnico di Infotre S.r.l., società trevigiana attiva da oltre 30 anni nell’ambito delle soluzioni gestionali per le piccole e medie Imprese.<br><br>Dopo il diploma in informatica ha iniziato la propria carriera lavorativa come programmatore COBOL e installatore di sistemi BULL. Con l’avvento delle reti Microsoft e le ripercussioni sul mercato del software gestionale, si è specializzato in reti Windows e database SQL Server ottenendo la certificazione MCSE.&nbsp;Oggi Mauro gestisce e coordina per Infotre tutte le attività sistemistiche e di supporto tecnico.<br><br>Nel tempo libero ama correre e andare tra le montagne che frequenta fin da quando era bambino.&nbsp",
-        "image": "./img/Brunello-small.png"
-      },
-      {
-        "name": "Adam",
-        "lastname": "Nash",
-        "title": "Channel Manager EMEA di Webroot",
-        "curriculum": "Adam Nash lavora in ambito IT da circa 18 anni durante i quali ha ricoperto ruoli che spaziano dal tecnico al commerciale: è stato IT auditor, responsabile tecnico di prodotto, sales engineer e network engineer.<br><br>Da oltre tre anni lavora in Webroot per il quale ha contribuito alla costituzione del canale EMEA per i Service Provider.<br>Oltre alla tecnologia, Adam ama fare birra artigianale, cucinare e mangiare cibo italiano.<br>&nbsp;",
-        "image": "./img/Nash-small.png"
+        "name": "John",
+        "lastname": "McLaughlin",
+        "title": "Channel manager EMEA di Webroot",
+        "curriculum": "John McLaughlin ha un’esperienza tecnica pluriennale maturata in diversi settori tra cui grandi aziende di telecomunicazione, società di servizi e ISP. All’interno di Webroot ha ricoperto diversi ruoli fino a diventare Sales Engineer per il mercato EMEA. La mutevole complessità delle minacce informatiche pone a John McLaughlin sfide quotidiane, dandogli l’opportunità di affinare le capacità di rilevamento e rimozione malware. E proprio il rilevamento manuale e a livello di rete ha rappresentato una parte fondamentale nel suo lavoro in Webroot.",
+        "image": "./img/McLaughlin.png"
       }
-
     ]
   },
   {
-    "startDate": "20161014T101000Z",
-    "endDate": "20161014T105000Z",
-    "title": "Sessione tecnica – MDaemon",
-    "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando la flessibilità di MDaemon.",
+    "startDate": "20161014T100500Z",
+    "endDate": "20161014T103500Z",
+    "title": "Vent’anni di MDaemon",
+    "description": "Nel 2016 Alt-N Technologies festeggia i vent’anni di MDaemon, il mail server pluripremiato per la sua convenienza, affidabilità e sicurezza. Dalle sue umili origini, nella cucina di un appartamento a Arlington, in Texas, ora MDaemon è utilizzato da migliaia di aziende in oltre 90 paesi nel mondo. Kevin, nel suo intervento, ci racconterà alcuni passaggi salienti della storia del prodotto, le sfide intraprese per arrivare all’attuale versione e il futuro che ci attende per i prossimi 20 anni.",
     "speakers": [
-      {
-        "name": "Stefano",
-        "lastname": "Figà-Talamanca",
-        "title": "Socio Fondatore e Direttore dei Sistemi di Sensible Data",
-        "curriculum": "Stefano Figà-Talamanca è socio fondatore e Direttore dei Sistemi di Sensible Data, società che da oltre 18 anni offre servizi di consulenza e assistenza IT a piccole e medie imprese in Italia e all'estero.<br><br>Laureato in Statistica, ha iniziato la sua carriera nel settore informatico gestendo BBS e sistemi di messaggistica su reti FidoNet prima che si sviluppasse lo sfruttamento commerciale di Internet, arrivando poi a progettare e amministrare sistemi di posta elettronica da decine di migliaia di utenti.<br><br>Esperto di sicurezza e analisi dei rischi, quando può lavora come informatico volontario per ONG impegnate in progetti umanitari in Africa e Medio Oriente.",
-        "image": "./img/Talamanca-small.png"
-      },
       {
         "name": "Kevin",
         "lastname": "Beatty",
@@ -166,32 +121,18 @@
     ]
   }, 
   {
-    "startDate": "20161014T105000Z",
-    "endDate": "20161014T113000Z",
+    "startDate": "20161014T104000Z",
+    "endDate": "20161014T111000Z",
     "title": "Coffee break e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
   },
   {
-    "startDate": "20161014T113000Z",
-    "endDate": "20161014T120000Z",
-    "title": "Sessione commerciale – MailStore",
-    "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando la flessibilità di MDaemon.",
+    "startDate": "20161014T111000Z",
+    "endDate": "20161014T1140000Z",
+    "title": "@M3rd4hopersolamail",
+    "description": "All’inizio della sua carriera, Stefan, il fondatore di MailStore, aveva accumulato nella sua casella di posta un numero così elevato di messaggi che si chiedeva come avrebbe potuto custodire per il futuro una miniera di informazioni così importante. Pensò che per far vedere le foto agli amici e parenti si usavano gli album delle foto… Stefan voleva creare la stessa cosa per le email, un \"contenitore\" da consultare ogni volta che si voleva. Così nasceva MailStore Home…",
     "speakers": [
-      {
-        "name": "Fabio",
-        "lastname": "Minisci",
-        "title": "Business Developer di PC System S.r.l.",
-        "curriculum": "Fabio Minisci vanta 25 anni di esperienza come consulente commerciale all’interno di PC System, storica azienda toscana che opera nel settore dell’ICT, in qualità di partner tecnologico di PMI, Studi Professionali e PA.<br><br>Nel suo percorso professionale ha ricoperto differenti ruoli, dallo sviluppo del new-business nel mercato aziende, alla gestione del ciclo di vendite fino al consolidamento dei clienti acquisiti.<br>La sua esperienza professionale gli ha permesso di sviluppare un know-how sugli applicativi gestionali più evoluti presenti sul mercato delle PMI e sulle infrastrutture necessarie a supportarli.",
-        "image": "./img/Minisci-small.png"
-      },
-      {
-        "name": "Andrea",
-        "lastname": "Zorzet",
-        "title": "System Integrator e socio presso Lithe Informatica S.r.l.",
-        "curriculum": "Andrea Zorzet è socio di Lithe Informatica S.r.l., società che da 11 anni fornisce alle aziende servizi e prodotti IT.<br><br>Inizia a occuparsi di Information Technology nel 1984, prima prevalentemente sull'hardware e, dopo pochi anni, a livello sistemistico sui primi sistemi Unix per le piccole e medie imprese.<br><br>A parte una parentesi di quattro anni come EDP Manager, ha sempre lavorato sul 'campo', progettando e implementando strutture informatiche per i propri clienti.&nbsp;Negli ultimi 10 anni ha affrontato problematiche specifiche di gestione aziendale assistita da procedure informatiche quali sistemi ERP, gestione della produzione e della comunicazione aziendale.<br><br>Particolarmente sensibile alla sicurezza dei dati aziendali, cerca di trasferire ai propri clienti tale consapevolezza, convincendoli ad adottare soluzioni di backup solide e ridondate.",
-        "image": "./img/Zorzet-small.png"
-      },
       {
         "name": "Daniel",
         "lastname": "Weuthen",
@@ -202,70 +143,56 @@
     ]
   },
   {
-    "startDate": "20161014T120000Z",
-    "endDate": "20161014T130000Z",
-    "title": "Keynote Speech: Scenari emergenti nel settore delle telecomunicazioni",
-    "description": "Sotto la spinta di alcuni player di successo attivi nel settore dei terminali e dei servizi offerti attraverso Internet, gli operatori di telecomunicazioni sono alle prese con il potenziamento delle capacità delle reti fisse e mobili. <br>La sfida è conciliare gli impegni finanziari necessari per un tale accrescimento, con la sostituzione delle tradizionali fonti di ricavo, telefonia e messaggistica, in un contesto socioeconomico che si deve confrontare con l’economia digitale emergente con inevitabili ripercussioni sulla filiera dei servizi ICT.",
+    "startDate": "20161014T114500Z",
+    "endDate": "20161014T124500Z",
+    "title": "Quando arriva la ripresa? Cos’è stata questa crisi?",
+    "description": "Sebastiamo Barisoni, autorevole voce di Radio 24, analizza la "crisi": dagli elementi congiunturali internazionali ed europei ai rischi di una tempesta perfetta. Ma è davvero una crisi? O c’è un cambio strutturale nell’atteggiamento del consumatore? Ci spiega chi si può salvare analizzando i settori più penalizzati e quelli invece in crescita, cerando di capire se il ritorno all’età dell’oro è un’illusione o meno.",
     "speakers": [
       {
-        "name": "Vittorio",
-        "lastname": "Trecordi",
-        "title": "CEO di ICT Consulting S.p.a.",
-        "curriculum": "Vittorio Trecordi si occupa di Information &amp; Communication Technology da oltre 25 anni.<br>Dopo una decennale esperienza presso il Centro di Ricerca e Formazione del Politecnico di Milano, nel 1988 ha fondato, insieme ad altri soci, la ICT Consulting S.p.A. all’interno della quale si è occupato, nei primi anni, di ricerca nel settore delle reti di comunicazioni, con particolare focalizzazione sulla rete Internet, i protocolli e le applicazioni.<br><br>Attualmente è Direttore Generale di ICT Consulting S.p.A. e si occupa di consulenza strategica e operativa finalizzata all’applicazione dell'ICT e delle sue evoluzioni a beneficio di operatori di telecomunicazioni, grandi aziende del comparto finanziario e del settore utility.<br><br>Dal 1993 è docente a contratto presso alcune università lombarde.&nbsp;E' stato relatore in numerose conferenze e convegni nazionali ed esteri. Da oltre 20 anni è membro dell'IEEE e dal 2008 del Comitato Scientifico della Fondazione Ugo Bordoni.<br><br>Ha fatto parte del gruppo di esperti che ha coadiuvato il Commissario per l'Agenda Digitale, Francesco Caio, nella redazione del rapporto sulla banda ultralarga presentato a gennaio 2014. Ha partecipato anche alla redazione del documento 'Strategia italiana per la banda ultralarga', approvato dal Consiglio dei Ministri il 3 marzo 2015.",
-        "image": "./img/Trecordi-small.png"
+        "name": "Sebastiano",
+        "lastname": "Barisoni",
+        "title": "Giornalista di Radio24",
+        "curriculum": "Nato a Roma, laureato in relazioni internazionali a Firenze, giornalista professionista dal 1996, dopo tre anni di esperienza a Londra a Bloomberg Television, approda nel 1999 a Radio 24 dove si occupa di finanza e risparmio conducendo inizialmente "Salvadanaio" per passare in seguito all’attualità economica di "Focus Economia", realizzato con i protagonisti della giornata economico-finanziaria ed il contributo di giornalisti e analisti de Il Sole 24 Ore. Ha percorso tutti i passaggi nell’organigramma di Radio 24 fino a diventarne Vicedirettore Esecutivo nel 2013. Da ottobre 2015 è membro del Board di Oxfam Italia, ONG internazionale, specializzata in aiuti umanitari e progetti di sviluppo.",
+        "image": "./img/Barisoni.png"
       }
     ]
   }, 
   {
-    "startDate": "20161014T130000Z",
+    "startDate": "20161014T125000Z",
     "endDate": "20161014T140000Z",
-    "title": "Light lunch",
+    "title": "Light lunch e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
   },
   {
     "startDate": "20161014T140000Z",
-    "endDate": "20161014T144000Z",
-    "title": "Sessione tecnica – BackupAssist",
-    "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando alla flessibilità di BackupAssist.",
+    "endDate": "20161014T150000Z",
+    "title": "Tavola rotonda: come fare business e margini con i tuoi prodotti",
+    "description": "Panel moderato da Marco Maria Lorusso, Direttore Responsabile Digital4Trade Intervengono: Alt-N Technologies, Cortex, Datto, Kaseya, MailStore, Webroot.",
     "speakers": [
       {
-        "name": "Antonio",
-        "lastname": "Pace",
-        "title": "Systems Engineer di Sistemi Open S.r.l.",
-        "curriculum": "Antonio Pace è responsabile IT presso Sistemi Open S.r.l., azienda che si occupa di consulenza IT alle piccole e medie imprese.<br><br>Sebbene diplomato in Perito Elettronico, Antonio coltiva fin da piccolo la passione per il mondo informatico e la tecnologia in genere che poi crescendo ha trasformato in lavoro.<br><br>Nel 2002 ha iniziato a lavorare in ambito sistemistico, presso un’azienda di distribuzione e assistenza di software gestionali per professionisti. Durante quest'esperienza si è interfacciato con sistemi server e client e ha avuto modo di specializzarsi nel trobleshooting di varia natura.<br>Dal 2007, anno di nascita di Sistemi Open, ha avuto modo di ampliare le proprie competenza nell’ambito della virtualizzazione su ambiente VMware, della messaggistica, del cloud, del backup e della sicurezza informatica.",
-        "image": "./img/Pace.png"
-      },
-      {
-        "name": "Steven",
-        "lastname": "Chua",
-        "title": "Business Development Manager di Cortex I.T. Labs",
-        "curriculum": "Steven Chua è responsabile di tutte le attività di business development di Cortex I.T. Labs, produttore di BackupAssist.<br><br>Ha iniziato la sua carriera come programmatore per poi passare in Computer Associates e successivamente in Accenture. &nbsp;Lo si può riconoscere dal suo aspetto da ragazzo cinese che parla malese e vive in Australia, ama la pasta al pomodoro ed è sempre in viaggio per lavoro.<br><br>In Cortex lavora a stretto contatto con il CEO dell’azienda per assicurare che la roadmap di prodotto, i piani aziendali, i programmi per i partner si muovano sempre nella direzione di soddisfare i clienti finali e il canale attraverso i quali vengono raggiunti.",
-        "image": "./img/Chua-small.png"
+        "name": "Marco Maria",
+        "lastname": "Lorusso",
+        "title": "Direttore Responsabile di Digital4Trade",
+        "curriculum": "Giornalista, da luglio 2013 è Direttore Responsabile di Digital4Trade, piattaforma di comunicazione multimediale (Carta, Video, Web, Eventi, Lead Generation, Consulenza) dedicata al mondo del Canale ICT e a tutti coloro hanno il compito di portare l’innovazione nelle imprese italiane. Inizia a scrivere di cronaca per Il Giorno e diversi settimanali locali a 17 anni. Debutta nel 2000 nel mondo ICT prima come collaboratore e poi come caporedattore di alcune riviste storiche del settore come Top Trade Informatica, Linea EDP. Collabora negli anni con Espansione, Il Sole 24 Ore, Applicando, La Repubblica. Dal 2011 al 2013 partecipa al lancio e allo sviluppo del progetto Digitalic. Pugile mancato, una passione insana per Dylan Dog, Quentin Tarantino, la pastiera napoletana e ogni singolo numero legato al calcio, lo trovate su twitter: @MarcoLorux",
+        "image": "./img/Lorusso.png"
       }
     ]
   },
   {
-    "startDate": "20161014T144000Z",
-    "endDate": "20161014T152000Z",
-    "title": "NXPowerLite sotto la lente",
-    "description": "File giganti, server intasati, mail server strapieni di email e nessuno cancella mai nulla: come un problema può trasformarsi in un'opportunità di business.",
+    "startDate": "20161014T150000Z",
+    "endDate": "20161014T160000Z",
+    "title": "E dopo?",
+    "description": "Ce lo racconta Andrea Veca, CEO di Achab.",
     "speakers": [
-      {
-        "name": "Tullio",
-        "lastname": "Cozza",
-        "title": "CEO di OmniNet S.r.l.",
-        "curriculum": "Dal 1998 Tullio Cozza è titolare di OmniNet Srl, azienda nel settore IT specializzata nell’analisi, progettazione e implementazione di soluzioni informatiche con i maggiori e migliori vendor del panorama tecnologico.<br><br>Ha conoscenze informatiche a 360° con un know-how che spazia dalla sicurezza al networking, dallo storage al backup, passando per la virtualizzazione, il monitoraggio, la gestione automatizzata delle reti, Wan Acceleration; è specializzato sui sistemi Windows, Apple, VMware e Citrix.<br><br>Detiene le certificazioni più importanti per VMware, Citrix, WatchGuard, Silver Peak, DataCore, Unitrends, etc., che contribuiscono a fare della sua azienda uno dei player più interessanti del nord-est italiano.<br><br>Quando avanza del tempo dall’informatica, si dedica alle riparazioni elettroniche di jukebox, flipper e retro-gaming.",
-        "image": "./img/Cozza-small.png"
+    {
+        "name": "Andrea",
+        "lastname": "Veca",
+        "title": "CEO di Achab.",
+        "curriculum": "",
+        "image": ""
       }
     ]
-  }, 
-  {
-    "startDate": "20161014T152000Z",
-    "endDate": "20161014T160000Z",
-    "title": "Che cosa bolle in pentolAchab?",
-    "description": "Ce lo raccontano il CEO, Andrea Veca e il Managing Director, Aldo Rimondo.",
-    "speakers": []
   }, 
   {
     "startDate": "20161014T160000Z",
