@@ -1,59 +1,59 @@
-{"days": [{ "groupLabel": "20151022T000000Z",
+{"days": [{ "groupLabel": "20161013T000000Z",
   "titlesGroup": [
   {
-    "startDate": "20151022T104500Z",
-    "endDate": "20151022T113000Z",
+    "startDate": "20161013T110000Z",
+    "endDate": "20161013T123000Z",
+    "title": "Intervento da definire (orario da confermare)",
+    "description": "Speaker e contenuti da definire",
+    "speakers": []
+  },
+  {
+    "startDate": "20161013T123000Z",
+    "endDate": "20161013T140000Z",
+    "title": "Light lunch e visita ai desk degli sponsor",
+    "description": "",
+    "speakers": []
+  }, 
+  {
+    "startDate": "20161013T140000Z",
+    "endDate": "20161013T143000Z",
     "title": "Benvenuto e apertura dei lavori",
     "description": "",
     "speakers": []
-  },
+  }, 
   {
-    "startDate": "20151022T113000Z",
-    "endDate": "20151022T130000Z",
-    "title": "Workshop su Windows 10",
-    "description": "<ul style='padding-left:44px;border-top:1px'><li>Introduzione a Windows 10: le novità e il valore per i nostri clienti</li><li>Overview tecnica sulle novità di Windows 10</li><li>L'installazione di Windows 10</li><li>Il passaggio a Windows 10: metodi di deployment e differenze legate alle varie versioni</li><li>Un’unica piattaforma Windows: Phone, Tablet, Desktop e IoT</li><li>Innovazione continua grazie a Windows as a Service: come gestire gli aggiornamenti</li></ul>",
+    "startDate": "20161013T143000Z",
+    "endDate": "20161013T150000Z",
+    "title": "Dal restore che non funziona all’erogazione di servizi di disaster recovery",
+    "description": "Perché passare dalla vendita di prodotti all’erogazione di servizi? Come si fa a dare una svolta alla propria attività per aumentare i margini? Ce lo racconta Chris Tate che nella sua carriera ha guidato e vissuto questo cambiamento in diverse aziende, creando servizi ad elevato valore per i clienti e ad alta redditività per le sue aziende.",
     "speakers": [
       {
-        "name": "Agnese",
-        "lastname": "Giordano",
-        "title": "Product Marketing Manager per Windows Client in Microsoft Italia",
-        "curriculum": "Laureata in Ingegneria Elettronica all'Università di Pisa, ha iniziato la sua carriera lavorativa come consulente in Accenture e poi nel team web di Acer.<br><br><a name='minisci'></a>Dopo esser tornata sui banchi per il Master MAINS della Scuola Superiore Sant'Anna di Pisa arriva nella divisione Marketing di Microsoft Italia. Da più di due anni, nel ruolo di Product Marketing Manager per Windows Client, segue tutte le attività di marketing e formazione legate a Windows per il mercato italiano delle PMI e dei Partner.",
-        "image": "./img/Giordano.png"
-      },
-      {
-        "name": "Walter",
-        "lastname": "Cipolleschi",
-        "title": "Cofondatore e CEO di Nuovi S.O.C.I.",
-        "curriculum": "Walter Cipolleschi è il cofondatore e amministratore delegato di Nuovi S.O.C.I., una rete professionale di aziende ICT e consulenti con più di 30 anni di esperienza nel settore.<br><br>Negli anni '90 ha iniziato a lavorare come consulente in qualità di esperto della gestione della tecnologia nelle organizzazioni complesse, dell'integrazione dei sistemi e della sicurezza. Contestualmente è stato professore associato di Marketing presso il Dipartimento IT dell'Università degli Studi di Milano. Ha collaborato a diverse pubblicazioni (stampa e Web); è stato membro di UNINFO, ente dell'UNI, l'istituto che rappresenta l'Italia presso la ISO, e della commissione JTC 1 per le tecnologie informatiche.<br><br><a name='cozza'></a>Attualmente collabora con varie aziende multinazionali in qualità di coordinatore di progetti di infrastruttura, di consulente tecnologico e di project e program manager all'interno dell’area ICT. Da più di 20 anni collabora con Microsoft Italia come coordinatore e docente delle iniziative di formazione rivolte alla readiness dei Partner.",
-        "image": "./img/Cipolleschi.png"
+        "name": "Chris",
+        "lastname": "Tate",
+        "title": "Business Development Director di Datto ",
+        "curriculum": "Autorità e riferimento indiscusso nel mondo dei servizi, ha sempre lavorato in prima linea nel campo dell’Information Technology portando al successo aziende come Tiedata e GCI gestendone la transizione dalla vendita dei prodotti alla vendita dei servizi.Ha ideato e lanciato il portale TotallyMSP.COM dove i service provider possono trovare spunti, interviste, recensioni e tutto quanto ruota attorno al mondo dei servizi IT.Da giugno 2016 lavora con Datto come Business Development Director.",
+        "image": "./img/Tate.png"
       }
     ]
   },
   {
-    "startDate": "20151022T130000Z",
-    "endDate": "20151022T140000Z",
-    "title": "Light lunch",
-    "description": "",
-    "speakers": []
-  },  
-  {
-    "startDate": "20151022T140000Z",
-    "endDate": "20151022T151500Z",
-    "title": "Presentazione della nuova soluzione Datto",
-    "description": "Backup, disaster recovery o business continuity?<br>Si fa presto a dire backup ma esso non è più sufficiente.<br>Il backup si occupa dei dati, ma il business chi lo protegge?<br>Per gli studi professionali e le imprese, l'IT è diventato critico e i downtime rappresentano un costo difficilmente sostenibile. E' necessario proteggere sistemi, applicazioni e dati sia in locale sia in cloud, garantendo ripartenza immediata a fronte di un problema, senza perdere di vista la semplicità d’uso e il margine per chi fornisce servizi IT.<br>Datto assicura ripartenze immediate sia in locale sia in cloud, strizzando l’occhio al business dei service provider.<br><br>",
+    "startDate": "20161013T150500Z",
+    "endDate": "20161013T154000Z",
+    "title": "Da NT backup al cloud: la storia di BackupAssist",
+    "description": "Come nasce e si evolve un software di backup? Lo racconta direttamente Linus Chang, l’inventore di BackupAssist. Fin da bambino Linus si dimostra subito un promettente geek iniziando a programmare giovanissimo. Terminati gli studi ha la folgorazione: costruire un software di backup. Il lavoro è duro ma Linus non molla e, supportato da un team marketing e vendite, la sua creature raggiunge notorietà mondiale ma l’evoluzione continua… dove arriverà BackupAssist?",
     "speakers": [
       {
-        "name": "Andrew",
-        "lastname": "Stuart",
-        "title": "Managing Director EMEA di Datto",
-        "curriculum": "Andrew Stuart è il Managing Director EMEA di Datto e vanta oltre un decennio di esperienza nel settore IT. <br><br>Andrew, il cui ruolo è stato determinante nell'espansione di Datto nell'area EMEA, ha un background unico poiché ha lavorato sia dalla parte del distributore sia come Managed Service Provider.<br><br> Prima di Datto, Andrew è stato Managing Director sia per Clark Integrated Technologies sia, più recentemente, per Paradeon Technologies, azienda che ha fondato per la distribuzione delle tecnologie emergenti come Datto nel canale UK.  <br><br><a name='weuthen'></a>Andrew lavora nel quartier generale europeo a Reading, Berkshire - Regno Unito. <br>&nbsp;",
-        "image": "./img/Stuart.png"
+        "name": "Linus",
+        "lastname": "Chang",
+        "title": "Fondatore di Cortex I.T.",
+        "curriculum": "Linus inizia a programmare e costruire circuiti elettrici a 8 anni, già aveva una grande passione per la tecnologia. Subito dopo l’università, Linus sviluppa e rilascia la prima versione di BackupAssist. Le difficoltà a portare avanti lo sviluppo del prodotto lo fanno quasi desistere ma stringe i denti e continua a sviluppare il software. L’incontro con Seven Chua è decisivo per la crescita del business. Dopo anni di duro lavori BackupAssist è una realtà affermata in oltre 145 paesi con oltre 10.000 copie vendute. Parte dei profitti derivanti da BackupAssist vengono devoluti in attività a sostegno delle adozioni a distanza. Oltre al suo business, Linus ama i viaggi, le escursioni e il pianoforte.",
+        "image": "./img/Chang.png"
       }
     ]
   },  
   {
-    "startDate": "20151022T151500Z",
-    "endDate": "20151022T161500Z",
+    "startDate": "20161013T151500Z",
+    "endDate": "20161013T161500Z",
     "title": "Presentazione della nuova soluzione Autotask Endpoint Management",
     "description": "L'aumento esponenziale dei dispositivi rende necessario l'utilizzo di strumenti efficienti per la gestione remota delle reti.<br>I fornitori di servizi IT devono scegliere una soluzione che li aiuti, che faccia risparmiare tempo e aumentare i margini.<br>Autotask Endpoint Management è una soluzione cloud per la gestione centralizzata dei dispositivi che devi supportare e che garantisce visibilità completa su PC, server, workstation e mobile.<br>Per AEM flessibilità, efficienza e semplicità d’uso sono le parole d’ordine.<br><br>",
     "speakers": [
@@ -67,15 +67,15 @@
     ]
   }, 
   {
-    "startDate": "20151022T161500Z",
-    "endDate": "20151022T164500Z",
+    "startDate": "20161013T161500Z",
+    "endDate": "20161013T164500Z",
     "title": "Coffee break e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
   },   
   {
-    "startDate": "20151022T164500Z",
-    "endDate": "20151022T172000Z",
+    "startDate": "20161013T164500Z",
+    "endDate": "20161013T172000Z",
     "title": "Costi di un incidente IT",
     "description": "Troppo spesso non si è in grado di valutare il costo aziendale di un incidente IT. Il che è assurdo perché vuol dire che non si hanno elementi quantitativi per valutare quali contromisure prevedere per evitare che l'incidente si verifichi.<br>Renato Castroreale illustra un modello semplificato per calcolare il costo di un incidente che tiene in considerazione le componenti di danno legate a improduttività, indisponibilità, riservatezza, integrità, immagine e ripristino.",
     "speakers": [
@@ -89,8 +89,8 @@
     ]
   }, 
   {
-    "startDate": "20151022T172000Z",
-    "endDate": "20151022T175500Z",
+    "startDate": "20161013T172000Z",
+    "endDate": "20161013T175500Z",
     "title": "Perché essere MSP conviene",
     "description": "Sono in atto cambiamenti epocali: la pervasività del cloud, i dati sparpagliati ovunque, la crescita dei dispositivi e delle applicazioni connesse, la crescente esigenza di disponibilità da parte dei clienti (e la loro maggiore consapevolezza) e il cybercrime con il suo giro d'affari da capogiro.<br>Vediamo insieme perché l’approccio MSP (se non MSP 2.0) è il più conveniente per chi eroga servizi IT e deve garantire la marginalità propria e dei clienti.",
     "speakers": [
@@ -104,18 +104,18 @@
     ]
   }, 
   {
-    "startDate": "20151022T183000Z",
-    "endDate": "20151022T240000Z",
+    "startDate": "20161013T183000Z",
+    "endDate": "20161013T240000Z",
     "title": "Serata insieme",
     "description": "<span style='padding-left:44px;'><strong>19:00 - 20:00</strong> Aperitivo</span><br><span style='padding-left:44px;'><strong>20:00 - 22:00</strong> Cena conviviale</span><br><span style='padding-left:44px;'><strong>22:00 - 24:00</strong> Intrattenimento</span><br>",
     "speakers": []
   }
 ]},
-{ "groupLabel": "20151023T000000Z",
+{ "groupLabel": "20161014T000000Z",
   "titlesGroup": [
   {
-    "startDate": "20151023T093000Z",
-    "endDate": "20151023T101000Z",
+    "startDate": "20161014T093000Z",
+    "endDate": "20161014T101000Z",
     "title": "Sessione commerciale – Webroot",
     "description": "Valore, soluzione di problemi e soddisfazione del cliente.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per vendere al meglio Webroot.",
     "speakers": [
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "startDate": "20151023T101000Z",
-    "endDate": "20151023T105000Z",
+    "startDate": "20161014T101000Z",
+    "endDate": "20161014T105000Z",
     "title": "Sessione tecnica – MDaemon",
     "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando la flessibilità di MDaemon.",
     "speakers": [
@@ -166,15 +166,15 @@
     ]
   }, 
   {
-    "startDate": "20151023T105000Z",
-    "endDate": "20151023T113000Z",
+    "startDate": "20161014T105000Z",
+    "endDate": "20161014T113000Z",
     "title": "Coffee break e visita ai desk degli sponsor",
     "description": "",
     "speakers": []
   },
   {
-    "startDate": "20151023T113000Z",
-    "endDate": "20151023T120000Z",
+    "startDate": "20161014T113000Z",
+    "endDate": "20161014T120000Z",
     "title": "Sessione commerciale – MailStore",
     "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando la flessibilità di MDaemon.",
     "speakers": [
@@ -202,8 +202,8 @@
     ]
   },
   {
-    "startDate": "20151023T120000Z",
-    "endDate": "20151023T130000Z",
+    "startDate": "20161014T120000Z",
+    "endDate": "20161014T130000Z",
     "title": "Keynote Speech: Scenari emergenti nel settore delle telecomunicazioni",
     "description": "Sotto la spinta di alcuni player di successo attivi nel settore dei terminali e dei servizi offerti attraverso Internet, gli operatori di telecomunicazioni sono alle prese con il potenziamento delle capacità delle reti fisse e mobili. <br>La sfida è conciliare gli impegni finanziari necessari per un tale accrescimento, con la sostituzione delle tradizionali fonti di ricavo, telefonia e messaggistica, in un contesto socioeconomico che si deve confrontare con l’economia digitale emergente con inevitabili ripercussioni sulla filiera dei servizi ICT.",
     "speakers": [
@@ -217,15 +217,15 @@
     ]
   }, 
   {
-    "startDate": "20151023T130000Z",
-    "endDate": "20151023T140000Z",
+    "startDate": "20161014T130000Z",
+    "endDate": "20161014T140000Z",
     "title": "Light lunch",
     "description": "",
     "speakers": []
   },
   {
-    "startDate": "20151023T140000Z",
-    "endDate": "20151023T144000Z",
+    "startDate": "20161014T140000Z",
+    "endDate": "20161014T144000Z",
     "title": "Sessione tecnica – BackupAssist",
     "description": "Trucchi, configurazioni e consigli.<br>L'obiettivo della sessione è di condividere esperienze, idee, tecniche e confrontarsi per risolvere i problemi dei clienti sfruttando alla flessibilità di BackupAssist.",
     "speakers": [
@@ -246,8 +246,8 @@
     ]
   },
   {
-    "startDate": "20151023T144000Z",
-    "endDate": "20151023T152000Z",
+    "startDate": "20161014T144000Z",
+    "endDate": "20161014T152000Z",
     "title": "NXPowerLite sotto la lente",
     "description": "File giganti, server intasati, mail server strapieni di email e nessuno cancella mai nulla: come un problema può trasformarsi in un'opportunità di business.",
     "speakers": [
@@ -261,15 +261,15 @@
     ]
   }, 
   {
-    "startDate": "20151023T152000Z",
-    "endDate": "20151023T160000Z",
+    "startDate": "20161014T152000Z",
+    "endDate": "20161014T160000Z",
     "title": "Che cosa bolle in pentolAchab?",
     "description": "Ce lo raccontano il CEO, Andrea Veca e il Managing Director, Aldo Rimondo.",
     "speakers": []
   }, 
   {
-    "startDate": "20151023T160000Z",
-    "endDate": "20151023T163000Z",
+    "startDate": "20161014T160000Z",
+    "endDate": "20161014T163000Z",
     "title": "Gran Finale",
     "description": "",
     "speakers": []
