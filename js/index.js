@@ -54,7 +54,7 @@ function onDeviceReady() {
             $('.daysInAgenda').on('tap', displayDayTitles);
 
             // when user does click on eventTitle, display details
-            $('.agendaTitle').on("tap", displayDetails);
+            $('.titleInAgenda').on("tap", displayDetails);
 
             // when user does click on "> image", load description
             $('.itemDescription').on( "tap", viewDescription );
@@ -131,10 +131,12 @@ function displaySelectedTitleDetails(daterange)
 	if(obj.css("display") == "none")
 	{
 		obj.show();
+        obj.addClass('detailH');
 	}
 	else
 	{
 		obj.hide();
+        obj.removeClass('detailH');
 	}
 }
 

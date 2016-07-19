@@ -37,6 +37,11 @@
 	padding-right:0.5rem;
 }
 
+.detailH
+{
+	min-height:0.5rem;
+}
+
 .highlight
 {
 	background-color: #ffcc00;
