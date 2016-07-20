@@ -39,7 +39,7 @@
 
 .detailH
 {
-	min-height:0.5rem;
+	min-height:2rem;
 }
 
 .highlight
@@ -63,8 +63,7 @@
     font-size: 24px;
     padding-top: 24px;
     padding-bottom: 0px;
-    padding-right: 5%;
-    padding-left: 90%;
+    padding-right: 1rem;
     font-family: Roboto, Helvetica, Arial, sans-serif;	
 }
 
